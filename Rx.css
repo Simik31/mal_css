@@ -1,3 +1,5 @@
+/* Part of simik31's MAL css */
+
 .list-container .list-unit .list-table .list-item span a[href*="&tag=Rx"] {
     position: absolute;
     -webkit-transition: all 0.8s;
