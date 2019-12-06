@@ -59,6 +59,6 @@
 }
 
 .list-container .status-menu-container .status-menu .status-button.on {
-    color: var(--background-color);
+    background-color: var(--color);
     cursor: default;
 }

@@ -1,0 +1,13 @@
+/* Part of simik31's MAL css */
+
+.list-container .status-menu-container .search-container #search-button {
+	color: inherit;
+    font-size: 14px;
+    height: 14px;
+    margin: 0;
+    border-radius: 6px;
+    background: url("https://raw.githack.com/Simik31/mal_css/master/img/search.png") var(--color);
+    width: 28px;
+    height: 28px;
+    font-size: 0;
+}
