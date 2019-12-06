@@ -8,7 +8,7 @@
     transition: all 0.8s;
     width: 241.5px;
     height: 361px;
-    background: url("https://i.imgur.com/fmtoAsr.png") #191919f0;
+    background: var(--rx-cover) #191919f0;
     background-repeat:no-repeat;
     background-position:center;
 }

@@ -1,5 +1,19 @@
 /* Part of simik31's MAL css */
 
+.list-container .status-menu-container .search-container #search-button {
+	color: inherit;
+    font-size: 14px;
+    height: 14px;
+    margin: 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: url("https://murakumo-jp.github.io/MyAnimeList-CSS/Eorzea_Collection/images/search.png") var(--color);
+    width: 28px;
+    height: 28px;
+    font-size: 0;
+}
+
 .list-table .list-table-data .data.tags {
     font-size: 0;
 }
@@ -23,58 +37,6 @@ body {
 
 .status-menu-container.fixed + div.list-block {
     margin-top: 0;
-}
-
-.list-container .status-menu-container .status-menu .status-button:hover {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    background: none;
-    color: var(--color);
-}
-
-.list-container .status-menu-container .status-menu .status-button {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    top: 5px;
-    display: inline;
-    color: var(--text-color);
-    height: 30px;
-    line-height: 30px;
-    margin-top: 5px;
-    padding: 0 15px;
-    border-right: 2px solid var(--bg-color);
-    font-size: 13px;
-    font-weight: bold;
-}
-
-.status-menu-container .status-menu .status-button:hover:before {
-    width: 100%;
-    visibility: visible;
-}
-
-
-.list-container .status-menu-container .status-menu .status-button.on {
-    color: var(--color);
-    font-size: 13px;
-	font-weight: bold !important;
-}
-
-.list-container .status-menu-container .search-container #search-button {
-	color: inherit;
-    font-size: 14px;
-    height: 14px;
-    margin: 0;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    background: url("https://murakumo-jp.github.io/MyAnimeList-CSS/Eorzea_Collection/images/search.png") var(--color);
-    width: 28px;
-    height: 28px;
-    font-size: 0;
 }
 
 /* Sort Menu */
