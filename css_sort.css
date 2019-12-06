@@ -1,21 +1,9 @@
 /* Part of simik31's MAL css */
 
-.list-unit .list-status-title .text {
-    padding: 11px 0;
-    width: 220px;
-    right: 41px;
-    font-size: 16px;
-    height: 18px;
-    background-color: var(--color);
-    color: var(--text-color);
-    position: absolute;
-    font-family: consolas;
-}
-
 .list-table>tbody:first-of-type {
     top: 250px;
     position: absolute;
-    right: 263px;
+    right: 41px;
     cursor: pointer;
 }
 
@@ -53,13 +41,21 @@
   color:  var(--text-secondary);
 }
 
+[data-work*="manga"] {
+  --width: 437px;
+}
+
+[data-work*="anime"] {
+  --width: 338px;
+}
+
 
 .list-container .list-unit .list-table tbody:first-child .list-table-header {
   display: inline-block;
   margin-top: -60px;
-  margin-right: -40px;
+  margin-right: 0;
   height: 30px;
-  width: 380px;
+  width: var(--width) !important;
   opacity: 0;
   transition-property: opacity;
   transition-duration: 0.3s;

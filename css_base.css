@@ -27,60 +27,9 @@ body {
 
 /* Sort Menu */
 
-.list-container .list-unit .list-table tbody:first-child::after {
-    display: inline-block;
-    font-size: 13px;
-    font-family: 'verdana', sans-serif;
-    font-weight: bold;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: auto;
-    content: " ";
-    width: 57px;
-    height: 40px;
-    background-color: var(--color);
-}
-
-.list-table>tbody:first-of-type {
-    top: 264px;
-    position: absolute;
-    right: 306px;
-    cursor: pointer;
-    display: block;
-}
-
-.list-container .list-unit .list-table tbody:first-child:hover .list-table-header {
-    width: 334px;
-    height: 41px;
-    top: 16px;
-    right: 31px;
-    background-color: transparent;
-    text-align: left;
-    opacity: 1;
-}
-
 body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hover .list-table-header {
     width: 437px !important;
     right: 27px !important;
-}
-
-.list-container .list-unit .list-table tbody:first-child .list-table-header .header-title .link {
-	padding: 17px 40px 13px 40px;
-    margin: 0 -40px 0 0;
-    width: 57px;
-    background-color: var(--color);
-    border-left: none !important;
-    color: inherit;
-    font-family: 'verdana', sans-serif;
-    font-size: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none !important;
-}
-
-.list-container .list-unit .list-table tbody:first-child .list-table-header .header-title .link:hover {
-  text-decoration: none;
-  color:  var(--bg-color);
 }
 
 .list-container .list-unit .list-table tbody:first-child .list-table-header .header-title {
@@ -1093,35 +1042,12 @@ a.status-button:hover {
 
 /*================================*/
 
-.list-unit .list-status-title .text {
-    padding: 15px 0;
-    top: 0px;
-    width: 220px;
-    right: 30px;
-    font-family: 'verdana', sans-serif;
-    font-size: 12px;
-    height: 10px;
-    background-color: var(--color);
-    color: var(--text-color);
-    position: absolute;
-}
 
 .list-container .list-unit .list-stats {
 	width: 1024px;
     border-top: 2px solid var(--color);
     background: var(--bg-color);
     font-weight: bold;
-}
-
-.list-container .list-unit .list-table tbody:first-child .list-table-header {
-  display: inline-block;
-  margin-top: -60px;
-  margin-right: -40px;
-  height: 30px;
-  opacity: 0;
-  transition-property: opacity;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
 }
 
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress,
