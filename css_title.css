@@ -1,5 +1,26 @@
 /* Part of simik31's MAL css */
 
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .link {
+    position: absolute;
+    left: 0;
+    padding: 4px 4px 4px 14px;
+    margin-right: 14px;
+    font-size: 18px;
+    margin-left: -100%;
+    opacity: 0;
+    top: 250px;
+    color: var(--text-color);
+    font-size: 17px !important;
+    text-decoration: none !important;
+    font-weight: 100 !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 212px;
+    position: absolute;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .link {
     display: block;
     -webkit-transition: all 0.8s;

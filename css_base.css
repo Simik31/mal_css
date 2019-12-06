@@ -1,19 +1,5 @@
 /* Part of simik31's MAL css */
 
-.list-container .status-menu-container .search-container #search-button {
-	color: inherit;
-    font-size: 14px;
-    height: 14px;
-    margin: 0;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    background: url("https://murakumo-jp.github.io/MyAnimeList-CSS/Eorzea_Collection/images/search.png") var(--color);
-    width: 28px;
-    height: 28px;
-    font-size: 0;
-}
-
 .list-table .list-table-data .data.tags {
     font-size: 0;
 }
@@ -211,28 +197,6 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
   left: 0;
   bottom: 0;
   right: 0;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.title .link {
-    position: absolute;
-    left: 0;
-    padding: 4px 4px 4px 14px;
-    margin-right: 14px;
-    background-color: rgba(0, 0, 0, .5);
-    font-size: 18px;
-    margin-left: -100%;
-    opacity: 0;
-    top: 215px;
-    color: var(--text-color);
-    font-size: 17px !important;
-    text-decoration: none !important;
-    font-weight: 100 !important;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 160px;
-    position: absolute;
-    vertical-align: middle;
-    overflow: hidden;
 }
 
 /* Content Status */
