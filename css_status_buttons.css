@@ -25,6 +25,7 @@
 
 .list-container .status-menu-container .status-menu .status-button.all_anime:hover {
     background-color: var(--all);
+	color: var(--text-secondary);
 }
 
 .list-container .status-menu-container .status-menu .status-button.watching:hover {
@@ -54,6 +55,7 @@
 
 .list-container .status-menu-container .status-menu .status-button.plantoread:hover  {
     background-color: var(--plan);
+	color: var(--text-secondary);
 }
 
 .list-container .status-menu-container .status-menu .status-button.on {
