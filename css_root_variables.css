@@ -3,6 +3,7 @@
 :root{
 	--bg-color: #3c3c3c;
 	--text-color: #fff;
+	--text-secondary: #000;
 	--cover: url("https://i.imgur.com/E2IYQka.png");
 	
 	/* theme colors */

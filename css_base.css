@@ -1,11 +1,13 @@
+/* Part of simik31's MAL css */
+
+.list-table .list-table-data .data.tags {
+    font-size: 0;
+}
+
 body {
   color: var(--text-color) !important;
   font-family: consolas !important;
   background-color: var(--bg-color) !important;
-}
-
-i.fa.fa-sort-asc.sort-icon, .list-container .list-unit .list-table tbody:first-child .list-table-header .header-title.title .link , .header .header-menu .btn-menu #header-menu-button .fa, .header .header-menu .list-menu .icon-menu svg.icon, .header .header-menu .list-menu .icon-menu .text, .list-menu-float .icon-menu svg.icon, .list-container .cover-block #cover-image-container .btn-list-setting, .list-container .list-unit .list-table tbody:first-child .list-table-header .header-title.image, .list-container .list-unit .list-table .list-item .list-table-data .data.status, .list-container .list-unit .list-table .list-item .list-table-data .data.number, .list-container .list-unit .list-table .list-item .list-table-data .data.title .icon-watch, #footer-block, .list-unit .loading-space, .header .header-menu .btn-menu, .list-table .list-table-data .tags .edit, .list-container .list-unit .list-table .list-item .list-table-data .data.started, .list-container .list-unit .list-table .list-item .list-table-data .data.finished, .list-container .list-unit .list-table .list-item .list-table-data .data.days, .list-container .list-unit .list-table .list-item .list-table-data .data.storage, .list-container .list-unit .list-table .list-item .list-table-data .data.priority, .list-container .list-unit .list-table .list-item .list-table-data .data.airing-finished, .list-container .list-unit .list-table .list-item .list-table-data .data.studio, .list-container .list-unit .list-table .list-item .list-table-data .data.licensor, .list-container .list-unit .list-table .list-item .list-table-data .data.retail, .status-menu-container .status-menu .status-button:after, .header-title.started, .header-title.finished, .fa-info-circle:before, #fancybox-close, .header-title.rated, .header-title.status, .header-title.number, .header-title.title, .header-title.tags, .header-title.started, .list-container .list-unit .list-status-title .stats #show-stats-button, .list-container .list-unit .list-table .list-item .list-table-data .data.rated, .list-container .list-unit .list-table .list-item .list-table-data .data.magazine {
-    display: none !important;
 }
 
 .list-container .status-menu-container {
@@ -13,7 +15,7 @@ i.fa.fa-sort-asc.sort-icon, .list-container .list-unit .list-table tbody:first-c
     top: 0;
     height: 40px;
     width: 1024px;
-    background-color: var(--dark-bg);
+    background-color: var(--bg-color);
     color: var(--text);
     z-index: 100;
     border-bottom: 2px solid var(--color);
@@ -72,33 +74,6 @@ i.fa.fa-sort-asc.sort-icon, .list-container .list-unit .list-table tbody:first-c
     background: url("https://murakumo-jp.github.io/MyAnimeList-CSS/Eorzea_Collection/images/search.png") var(--color);
     width: 28px;
     height: 28px;
-    font-size: 0;
-}
-
-/* Cover Block */
-
-.list-container .cover-block {
-    background-image: var(--cover);
-    background-repeat: no-repeat;
-	width: 1024px;
-    height: 250px;
-    background-color: var(--bg-color);
-    margin-bottom: 40px;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .link {
-    display: block;
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
-    margin-left: 0;
-    opacity: 1;
-}
-
-.list-table .list-table-data .data.tags {
     font-size: 0;
 }
 
@@ -189,7 +164,7 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     border: transparent;
     list-style: none;
     background: var(--bg-color);
-    color: #fff;
+    color: var(--text-color);
     padding-bottom: 15px;
 }
 
@@ -228,7 +203,7 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     right: auto;
     background: none;
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid var(--text-color);
     pointer-events: none;
     opacity: 0;
     z-index: 1;
@@ -286,7 +261,7 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     margin-left: -100%;
     opacity: 0;
     top: 215px;
-    color: #fff;
+    color: var(--text-color);
     font-size: 17px !important;
     text-decoration: none !important;
     font-weight: 100 !important;
@@ -318,7 +293,7 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     left: 103px;
     top: 247px;
     background-color: var(--color);
-    color: #fff;
+    color: var(--text-color);
     text-transform: uppercase;
     padding: 4px 10px;
     font-size: 10px;
@@ -410,7 +385,7 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: auto;
-    color: #fff;
+    color: var(--text-color);
     margin-top: 13px;
     margin-left: 40px;
     position: absolute;
@@ -480,7 +455,7 @@ td.td1.borderRBL div {
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.score .link {
   font: normal normal normal 13px / 1 tahoma, verdana, arial, sans-serif;
-  color: #fff;
+  color: var(--text-color);
   top: 5.5px;
   right: 0;
   width: 28px;
@@ -493,7 +468,7 @@ td.td1.borderRBL div {
     font-size: 13px !important;
     font-weight: bold;
     pointer-events: all;
-    color: #fff;
+    color: var(--text-color);
 	margin-right: 5px;
 }
 
@@ -503,7 +478,7 @@ td.td1.borderRBL div {
     font-size: 13px !important;
     font-weight: bold;
     pointer-events: all;
-    color: #fff;
+    color: var(--text-color);
     margin-right: 5px;
 }
 
@@ -513,7 +488,7 @@ td.td1.borderRBL div {
     font-size: 13px !important;
     font-weight: bold;
     pointer-events: all;
-    color: #fff;
+    color: var(--text-color);
     margin-right: 5px;
 }
 
@@ -523,7 +498,7 @@ td.td1.borderRBL div {
     font-size: 13px !important;
     font-weight: bold;
     pointer-events: all;
-    color: #fff;
+    color: var(--text-color);
     position: absolute;
     left: 1px;
     top: 243px;
@@ -544,7 +519,7 @@ td.td1.borderRBL div {
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress a, 
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter a, 
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume a {
-  color: #fff;
+  color: var(--text-color);
   font-size: 13px;
 }
 
@@ -591,7 +566,7 @@ td.td1.borderRBL div {
 
 a[href="/login.php"] {
     border-radius: 5px;
-    color: #ffffff !important;
+    color: var(--text-color)fff !important;
     background-color: var(--color);
     margin-right: 3px;
     display: inline-block;
@@ -622,7 +597,7 @@ a[href="/login.php"]:after {
 .header .header-menu .header-info a:last-child {
     top: 5px;
     display: inline;
-    color: #fff;
+    color: var(--text-color);
     line-height: 19px;
     margin-top: 5px;
     padding: 0 5px;
@@ -632,7 +607,7 @@ a[href="/login.php"]:after {
 
 .header .header-menu .list-menu .icon-menu {
     border-radius: 5px;
-    color: #ffffff !important;
+    color: var(--text-color)fff !important;
     background-color: var(--color);
     margin-right: 3px;
     display: inline-block;
@@ -668,7 +643,7 @@ a[href="/login.php"]:after {
 
 .header .header-menu .header-info {
     font-size: 11px !important;
-    color: #ffffff !important;
+    color: var(--text-color)fff !important;
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
@@ -754,7 +729,7 @@ select {
     padding: 5px;
     margin: 0;
     outline: none;
-    color: #ffffff !important;
+    color: var(--text-color)fff !important;
 }
 
 input[type='text'] option,
@@ -898,7 +873,7 @@ form:hover {
 
 .list-menu-float .icon-menu, .list-menu-float .icon-menu:not(.profile):hover {
 	border-radius: 5px;
-    color: #ffffff !important;
+    color: var(--text-color)fff !important;
     background-color: var(--color);
     margin-right: 3px;
     display: inline-block;
@@ -984,7 +959,7 @@ form:hover {
     margin-left: -25px;
     margin-top: -14px;
     padding: 10px 0px 20px 0px;
-    color: #fff;
+    color: var(--text-color);
     text-align: center;
     background-color: #3c3c3c;
     border-radius: 4px;
@@ -1022,7 +997,7 @@ form:hover {
     width: 0;
     height: 0;
     padding: 10px 0px 20px 0px;
-    color: #fff;
+    color: var(--text-color);
     text-align: center;
     background-color: #3c3c3c;
     border-radius: 4px;
@@ -1169,7 +1144,7 @@ a.status-button:hover {
 
 .fa-filter:before {
     content: "";
-	color: #fff;
+	color: var(--text-color);
     font-size: 13px;
 }
 
@@ -1188,7 +1163,7 @@ a.status-button:hover {
 #advanced-options {
     border: none;
     border-top: 2px solid var(--color);
-    color: #ffffff !important;
+    color: var(--text-color)fff !important;
     background-color: var(--bg-color) !important;
     top: 364px;
     width: 1024px;
@@ -1196,7 +1171,7 @@ a.status-button:hover {
 }
 #fancybox-overlay{z-index: 0 !important;}
 #fancybox-overlay {background-color: transparent !important;}
-#advanced-options .sort-widget input[type=radio]:checked:disabled + label {color: #ffffff !important;}
+#advanced-options .sort-widget input[type=radio]:checked:disabled + label {color: var(--text-color)fff !important;}
 
 /*================================*/
 
@@ -1209,7 +1184,7 @@ a.status-button:hover {
     font-size: 12px;
     height: 10px;
     background-color: var(--color);
-    color: #fff;
+    color: var(--text-color);
     position: absolute;
 }
 
@@ -1256,7 +1231,7 @@ a.status-button:hover {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: auto;
-    color: #fff;
+    color: var(--text-color);
     margin-top: 18px;
     margin-left: 13px;
     position: absolute;
