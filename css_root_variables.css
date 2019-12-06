@@ -1,8 +1,22 @@
 /* Part of simik31's MAL css */
 
 :root{
-	--color: #0080ff;
 	--bg-color: #3c3c3c;
 	--text-color: #fff;
 	--cover: url("https://i.imgur.com/E2IYQka.png");
+	
+	/* theme colors */
+	--watching:#2db039;
+	--completed:#0080ff;
+	--onhold:#f9d457;
+	--dropped:#a12f31;
+	--plan:#c3c3c3;
+	--all:#ffffff;
 }
+
+[data-query*="status\":1"] {--color: var(--watching);}
+[data-query*="status\":2"] {--color: var(--completed);}
+[data-query*="status\":3"] {--color: var(--onhold);}
+[data-query*="status\":4"] {--color: var(--dropped);}
+[data-query*="status\":6"] {--color: var(--plan);}
+[data-query*="status\":7"] {--color: var(--all);}
