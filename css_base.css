@@ -38,10 +38,6 @@ body {
     content: " ";
     width: 57px;
     height: 40px;
-    clip-path: polygon(67% 100%, 100% 100%, 33% 0, 0px 0px);
-	-webkit-clip-path: polygon(67% 100%, 100% 100%, 33% 0, 0px 0px);
-	-moz-clip-path: polygon(67% 100%, 100% 100%, 33% 0, 0px 0px);
-	-o-clip-path: polygon(67% 100%, 100% 100%, 33% 0, 0px 0px);
     background-color: var(--color);
 }
 
@@ -80,10 +76,6 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none !important;
-    clip-path: polygon(28% 100%, 99% 100%, 71% 0, 0px 0px);
-	-webkit-clip-path: polygon(28% 100%, 99% 100%, 71% 0, 0px 0px);
-	-moz-clip-path: polygon(28% 100%, 99% 100%, 71% 0, 0px 0px);
-	-o-clip-path: polygon(28% 100%, 99% 100%, 71% 0, 0px 0px);
 }
 
 .list-container .list-unit .list-table tbody:first-child .list-table-header .header-title .link:hover {

@@ -2,7 +2,10 @@
 
 :root{
 	--bg-color: #3c3c3c;
-
+	--text-color: #fff;
+	--text-secondary: #000;
+	--cover: url("https://i.imgur.com/E2IYQka.png");
+	
 	/* theme colors */
 	--watching:#2db039;
 	--completed:#0080ff;
@@ -15,30 +18,24 @@
 [data-query*="status\":1"] {
 	--color: var(--watching);
 	--rx-cover: url("https://raw.githack.com/Simik31/mal_css/master/img/rx-watching.png");
-	--text-color: #fff;
 	}
 [data-query*="status\":2"] {
 	--color: var(--completed);
 	--rx-cover: url("https://raw.githack.com/Simik31/mal_css/master/img/rx-completed.png");
-	--text-color: #fff;
 	}
 [data-query*="status\":3"] {
 	--color: var(--onhold);
 	--rx-cover: url("https://raw.githack.com/Simik31/mal_css/master/img/rx-onhold.png");
-	--text-color: #fff;
 	}
 [data-query*="status\":4"] {
 	--color: var(--dropped);
 	--rx-cover: url("https://raw.githack.com/Simik31/mal_css/master/img/rx-dropped.png");
-	--text-color: #fff;
 	}
 [data-query*="status\":6"] {
 	--color: var(--plan);
 	--rx-cover: url("https://raw.githack.com/Simik31/mal_css/master/img/rx-plan.png");
-	--text-color: #000;
 	}
 [data-query*="status\":7"] {
 	--color: var(--all);
 	--rx-cover: url("https://raw.githack.com/Simik31/mal_css/master/img/rx-all.png");
-	--text-color: #000;
 	}
