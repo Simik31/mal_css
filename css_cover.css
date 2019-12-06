@@ -1,0 +1,8 @@
+.list-container .cover-block {
+    background-image: var(--cover);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1024px;
+    height: 250px;
+    margin-bottom: 40px;
+}
