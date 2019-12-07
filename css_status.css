@@ -11,7 +11,7 @@
     transition: all 0.3s;
     position: absolute;
     left: 150px;
-    top: 300px;
+    top: 320px;
     background-color: var(--color);
     color: var(--text-color);
     text-transform: uppercase;

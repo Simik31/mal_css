@@ -8,14 +8,14 @@
     font-size: 18px;
     margin-left: -100%;
     opacity: 0;
-    top: 250px;
+    top: 191.5px;
     color: var(--text-color);
     font-size: 17px !important;
     text-decoration: none !important;
     font-weight: 100 !important;
     text-overflow: ellipsis;
     white-space: nowrap;
-    max-width: 212px;
+    max-width: 210px;
     position: absolute;
     vertical-align: middle;
     overflow: hidden;
