@@ -27,7 +27,7 @@
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
     transition: all 0.8s;
-    margin-left: 5px;
+    margin-left: 6px;
     opacity: 1;
     background-color: var(--color);
     color: var(--text-color) !important;
