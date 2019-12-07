@@ -1,0 +1,52 @@
+/* Part of simik31's MAL css */
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.season {
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 13px;
+    padding: 5px 0;
+    border-top: 1px solid var(--color) !important;
+    font-size: 10px;
+    opacity: 1;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.type {
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 36px;
+    padding: 3px 0 7px 0;
+    background-color: var(--bg-color);
+    border-top: 1px solid var(--color);
+    font-size: 11px;
+    opacity: 1;
+    color: var(--text-color);
+}
+
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.type {
+    display: block;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+    margin-left: 0;
+    opacity: 0;
+    height: 0;
+}
+
+.list-table .list-table-data .data a {
+  color: var(--color) !important;
+}

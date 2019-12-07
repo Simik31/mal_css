@@ -181,25 +181,6 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     height: 0;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.season,
-.list-container .list-unit .list-table .list-item .list-table-data .data.airing-started {
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    -o-transition: all 0.7s;
-    transition: all 0.7s;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 13px;
-    padding: 5px 0 5px 0;
-    border-top: 2px solid #3e3d3d;
-    background-color: transparent;
-    font-size: 10px;
-    opacity: 1;
-}
-
 .list-container .list-unit .list-table .list-item .list-table-data .data.rated a, 
 .list-container .list-unit .list-table .list-item .list-table-data .data.magazine a {
   font: normal normal normal 13px / 1 tahoma, verdana, arial, sans-serif;
