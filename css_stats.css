@@ -1,8 +1,14 @@
 /* Part of simik31's MAL css */
 
-.list-container .list-unit .list-stats {
+.list-stats {
 	  width: 1024px;
     border-top: 2px solid var(--color);
     background: var(--bg-color);
     font-weight: bold;
+}
+
+.list-stats {
+  display:block !important;
+  padding-top:10px;
+  color:var(--color) !important;
 }
