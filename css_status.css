@@ -1,18 +1,14 @@
 /* Part of simik31's MAL css */
 
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .content-status {
+    left: 145px;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    left: 143px;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status {
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    -o-transition: all 0.7s;
-    transition: all 0.7s;
     position: absolute;
     left: 150px;
     top: 300px;

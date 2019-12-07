@@ -440,17 +440,8 @@ a[href="/login.php"]:after {
     font-size: 0;
     z-index: 999 !important;
 }
-
-
-/* Header Height */
 .list-menu-float {
   top: 295px !important;
-}
-
-/* Footer Font Color */
-#copyright,
-#loading-spinner {
-  color: gray;
 }
 
 .header .header-menu .header-info a:last-child::after, 
@@ -489,9 +480,8 @@ a[href="/login.php"]:after {
   opacity: 1;
 }
 
-input[type='text'],
-select {
-    background-color: #3c3c3c;
+input[type='text'], select {
+    background-color: var(--bg-color);
     border: 0;
     border-bottom: 0 !important;
     vertical-align: middle;
@@ -499,12 +489,11 @@ select {
     padding: 5px;
     margin: 0;
     outline: none;
-    color: var(--text-color)fff !important;
+    color: var(--text-color) !important;
 }
 
-input[type='text'] option,
-select option {
-  color: #000;
+input[type='text'] option, select option {
+  color: var(--text-color);
 }
 
 .header {
@@ -704,7 +693,6 @@ form:hover {
   cursor: pointer;
 }
 
-/* Menu 2 */
 .icon-menu.quick-add.List_LightBox:hover, .list-menu-float .icon-menu.anime-list:hover,
 .list-menu-float .icon-menu.manga-list:hover, .list-menu-float .icon-menu.history:hover,
 .list-menu-float .icon-menu.export:hover, .list-menu-float .icon-menu.logout:hover, .icon-menu.profile:hover {
@@ -774,7 +762,6 @@ form:hover {
     opacity: 0;
     z-index: -1;
 }
-/*========*/
 
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting, 
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
@@ -851,8 +838,6 @@ a.status-button:hover {
 	height: 40px;
 	width: 1024px;
 }
-
-/* Filters */
 
 #advanced-options-button {
 	background-color: var(--color);
