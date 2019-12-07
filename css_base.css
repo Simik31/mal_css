@@ -1,46 +1,4 @@
-@charset "UTF-8";
-
-@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter";
-/*
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_base.css";
-*/
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_cover.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_display_none.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_footer.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_inner_border.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_inner_edit.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_inner_more.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_root_variables.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_rx_content.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_scrollbar.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_search.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_sort.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_stats.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_status.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_status_buttons.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_title.css";
-
-@\import "https://raw.githack.com/Simik31/mal_css/master/css_typ_season.css";
-
-/**/
-
-
-
-/**/
+/* Part of simik31's MAL css */
 
 .list-table .list-table-data .data.tags {
     font-size: 0;
