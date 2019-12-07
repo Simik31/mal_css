@@ -1,0 +1,86 @@
+/* Part of simik31's MAL css */
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter ~ .volume {
+  top: 350px;
+}
+
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.volume {
+    display: block;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+    margin-left: 5px;
+    opacity: 1;
+}
+
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.volume .icon-add-volume {
+  display: block;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter ~ .volume:before {
+    padding: 2px 0px 0px 0;
+    content: "Volumes:";
+    font-size: 13px !important;
+    font-weight: bold;
+    pointer-events: all;
+    color: var(--text-color);
+    margin-right: 5px;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume {
+    font-size: 13px !important;
+    font-weight: bold;
+    pointer-events: all;
+    color: var(--text-color);
+    position: absolute;
+    left: 1px;
+    top: 243px;
+    padding: 3px 7px 3px 15px;
+    background-color: var(--color);
+    margin-right: 14px;
+    margin-left: -100%;
+    opacity: 0;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume a {
+  color: var(--text-color);
+  font-size: 13px;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume span:only-child {
+  font-size: 13px;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume span:nth-child(2) {
+  font-size: 13px;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-volume,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-volume,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-episode,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-chapter,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume {
+    display: none;
+    position: absolute;
+    right: -22px;
+    top: 0px;
+    padding: 5px 5px 6px 5px;
+    border-left: 1px solid #a0102b;
+    background-color: var(--color);
+}
+
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-volume .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-volume .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-episode .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-chapter .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume .fa {
+  font-size: 14px;
+  text-shadow: #000 1px 1px 1px;
+}

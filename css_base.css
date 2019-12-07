@@ -1,4 +1,46 @@
-/* Part of simik31's MAL css */
+@charset "UTF-8";
+
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter";
+/*
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_base.css";
+*/
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_cover.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_display_none.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_footer.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_inner_border.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_inner_edit.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_inner_more.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_root_variables.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_rx_content.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_scrollbar.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_search.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_sort.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_stats.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_status.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_status_buttons.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_title.css";
+
+@\import "https://raw.githack.com/Simik31/mal_css/master/css_typ_season.css";
+
+/**/
+
+
+
+/**/
 
 .list-table .list-table-data .data.tags {
     font-size: 0;
@@ -15,7 +57,7 @@ body {
     top: 0;
     height: 40px;
     width: 1024px;
-    background-color: var(--bg-color);
+    background-color: var(--bg-color);*/
     color: var(--text);
     z-index: 100;
     border-bottom: 2px solid var(--color);
@@ -75,18 +117,6 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
   width: 100%;
   height: 100%;
 }
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.image .link {
-  width: 100%;
-  height: 100%;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.image .link .image {
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
 .list-container .list-unit .list-table .list-item .list-table-data .data.image .link::after {
   content: '';
   background-repeat: no-repeat;
@@ -252,19 +282,8 @@ td.td1.borderRBL div {
     margin-right: 5px;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter ~ .volume:before {
-    padding: 2px 0px 0px 0;
-    content: "Volumes:";
-    font-size: 13px !important;
-    font-weight: bold;
-    pointer-events: all;
-    color: var(--text-color);
-    margin-right: 5px;
-}
-
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress, 
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter, 
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume {
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter {
     font-size: 13px !important;
     font-weight: bold;
     pointer-events: all;
@@ -280,38 +299,31 @@ td.td1.borderRBL div {
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress div, 
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter div, 
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume div {
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter div {
   display: inline-block;
   vertical-align: top;
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress a, 
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter a, 
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume a {
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter a {
   color: var(--text-color);
   font-size: 13px;
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress span:only-child, 
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:only-child, 
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume span:only-child {
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:only-child {
   font-size: 13px;
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress span:nth-child(2), 
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:nth-child(2), 
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume span:nth-child(2) {
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:nth-child(2) {
   font-size: 13px;
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode,
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter,
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-volume, .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode,
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter,
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-volume, .list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-episode,
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-chapter,
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume {
+ .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter {
     display: none;
     position: absolute;
     right: -22px;
@@ -323,16 +335,11 @@ td.td1.borderRBL div {
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode .fa,
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter .fa,
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-volume .fa, .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode .fa,
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter .fa,
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-volume .fa, .list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-episode .fa,
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-chapter .fa,
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume .fa {
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter .fa {
   font-size: 14px;
   text-shadow: #000 1px 1px 1px;
 }
-
-/* Header Menu Other */
 
 a[href="/login.php"] {
     border-radius: 5px;
@@ -440,8 +447,17 @@ a[href="/login.php"]:after {
     font-size: 0;
     z-index: 999 !important;
 }
+
+
+/* Header Height */
 .list-menu-float {
   top: 295px !important;
+}
+
+/* Footer Font Color */
+#copyright,
+#loading-spinner {
+  color: gray;
 }
 
 .header .header-menu .header-info a:last-child::after, 
@@ -480,8 +496,9 @@ a[href="/login.php"]:after {
   opacity: 1;
 }
 
-input[type='text'], select {
-    background-color: var(--bg-color);
+input[type='text'],
+select {
+    background-color: #3c3c3c;
     border: 0;
     border-bottom: 0 !important;
     vertical-align: middle;
@@ -489,11 +506,12 @@ input[type='text'], select {
     padding: 5px;
     margin: 0;
     outline: none;
-    color: var(--text-color) !important;
+    color: var(--text-color)fff !important;
 }
 
-input[type='text'] option, select option {
-  color: var(--text-color);
+input[type='text'] option,
+select option {
+  color: #000;
 }
 
 .header {
@@ -880,12 +898,8 @@ a.status-button:hover {
 #fancybox-overlay {background-color: transparent !important;}
 #advanced-options .sort-widget input[type=radio]:checked:disabled + label {color: var(--text-color)fff !important;}
 
-/*================================*/
-
-
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress,
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter,
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.volume {
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter {
     display: block;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
@@ -897,42 +911,14 @@ a.status-button:hover {
 
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .add-edit-more,
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress .icon-add-episode,
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter .icon-add-chapter,
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.volume .icon-add-volume {
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter .icon-add-chapter {
   display: block;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .edit a::before {
-	display: inline-block;
-    font: normal normal normal 15px / 1 FontAwesome;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: auto;
-    color: var(--text-color);
-    margin-top: 18px;
-    margin-left: 13px;
-    position: absolute;
-    z-index: 98;
-    background-color: var(--color);
-    padding: 5px;
-    border-radius: 7px;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .edit a::before {
-  content: "";
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .add a::before {
-  content: "";
-}
-
+/* score */
 .list-container .list-unit .list-table .list-item .list-table-data .data.score select {
   top: 5.5px;
   right: 3px;
   width: 20px;
   position: absolute;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter ~ .volume {
-  top: 350px;
 }
