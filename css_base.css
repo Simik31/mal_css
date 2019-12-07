@@ -38,14 +38,6 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     font-weight: bold;
 }
 
-/* List Table */
-
-.list-stats {
-  display:block !important;
-  padding-top:10px;
-  color:var(--color) !important;
-}
-
 .list-container .list-unit .list-table {
     display: inline-block;
     min-height:calc(100vh - 451px);
@@ -71,39 +63,6 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     border: 1px solid var(--color);
     margin: 10px 0 0 10px;
     overflow: hidden;
-}
-
-.list-item:before {
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 98%;
-    height: 98%;
-    bottom: auto;
-    right: auto;
-    background: none;
-    background-color: transparent;
-    border: 1px solid var(--text-color);
-    pointer-events: none;
-    opacity: 0;
-    z-index: 1;
-}
-
-.list-item:hover:before {
-    height: 96%;
-    opacity: 1;
-    width: 94%;
-    height: 94%;
-    border-color: var(--color);
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data {
@@ -875,54 +834,6 @@ a.status-button:hover {
     background-color: #2b2b3b;
 }
 
-.list-container .status-menu-container .search-container {
-    position: fixed;
-    margin-top: -25px;
-    z-index: 1;
-}
-
-.list-container .status-menu-container .search-container #search-box {
-	margin: 0;
-    width: 0;
-    border: 0;
-    height: 25px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5;
-}
-
-.list-container .status-menu-container .search-container #search-box:hover {
-    box-shadow: 0 0 2px 1px var(--color);
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5;
-}
-
-.list-container .status-menu-container .search-container #search-box.open {
-    width: 148px;
-    border: 0;
-    height: 23px;
-    box-shadow: 0 0 2px 1px var(--color);
-}
-
-.list-container .status-menu-container .search-container #search-button::after {
-  right: 0;
-  top: 0;
-  margin-top: -19px;
-  padding-top: 3px;
-  text-align: right;
-  vertical-align: top;
-  content: "Search";
-}
-
-#list-container #status-menu .search-container {
-  right: calc((100% - 1024px)/2 + 10px);;
-}
-
-.list-container .status-menu-container .search-container #search-button i {
-  text-shadow: #000 1px 1px 1px;
-}
-
 .list-container .list-block {
   margin: 0;
   min-height: 0;
@@ -987,13 +898,6 @@ a.status-button:hover {
 /*================================*/
 
 
-.list-container .list-unit .list-stats {
-	width: 1024px;
-    border-top: 2px solid var(--color);
-    background: var(--bg-color);
-    font-weight: bold;
-}
-
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress,
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter,
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.volume {
@@ -1047,4 +951,3 @@ a.status-button:hover {
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter ~ .volume {
   top: 350px;
 }
-
