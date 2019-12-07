@@ -1,0 +1,8 @@
+/* Part of simik31's MAL css */
+
+.list-container .list-unit .list-stats {
+	  width: 1024px;
+    border-top: 2px solid var(--color);
+    background: var(--bg-color);
+    font-weight: bold;
+}
