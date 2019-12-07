@@ -38,7 +38,9 @@ i.fa.fa-sort-asc.sort-icon,
 .list-container .list-unit .list-status-title .stats #show-stats-button,
 .list-container .list-unit .list-table .list-item .list-table-data .data.rated,
 .list-container .list-unit .list-table .list-item .list-table-data .data.magazine,
-.list-unit .list-status-title .text
+.list-unit .list-status-title .text,
+#advanced-options-button,
+.list-table>tbody:first-of-type
 {
     display: none !important;
 }
