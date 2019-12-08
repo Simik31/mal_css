@@ -1,5 +1,17 @@
 /* Part of simik31's MAL css */
 
+.list-container .status-menu-container .status-menu  {
+    width: 1024px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid var(--color);
+} 
+
+.list-container .status-menu-container {
+    border-bottom: 10px solid var(--bg-color) !important;
+}
+}
+
 .list-container .status-menu-container .status-menu .status-button:hover {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
