@@ -13,18 +13,10 @@
 }
 
 .list-container .status-menu-container .status-menu .status-button:hover {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
     background: none;
 }
 
 .list-container .status-menu-container .status-menu .status-button {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
     top: 6px;
     display: inline;
     color: var(--text-color);

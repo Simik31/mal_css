@@ -1,10 +1,6 @@
 /* Part of simik31's MAL css */
 
 .list-item:before {
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
     content: "";
     position: absolute;
     left: 0;

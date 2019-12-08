@@ -84,3 +84,110 @@ form:hover {
     -o-transition: all 0.8s;
     transition: all 0.8s;
 }
+
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .link {
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter {
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.volume {
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.list-item:before {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.list-container .list-unit .list-table .list-item span a[href*="&tag=Rx"] {
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.list-container .list-unit .list-table .list-item:hover span a[href*="&tag=Rx"]{
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.list-container .status-menu-container .search-container #search-box {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5;
+}
+
+.list-container .status-menu-container .search-container #search-box:hover {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5;
+}
+
+.list-container .status-menu-container .status-menu .status-button:hover {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.list-container .status-menu-container .status-menu .status-button {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.season {
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.type {
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.type {
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+
+
+
+
+
+
+
+
+
+

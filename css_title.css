@@ -23,10 +23,6 @@
 
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .link {
     display: block;
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
     margin-left: 6px;
     opacity: 1;
     background-color: var(--color);

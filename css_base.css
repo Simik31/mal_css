@@ -100,7 +100,6 @@ body {
 
 /* Add / Edit / More */
 .list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more {
-  display: none;
   font-size: 0;
 }
 /* More */
@@ -142,10 +141,6 @@ body {
 
 .list-table .more-info .more-content {
     padding: 10px 0 10px 10px;
-}
-
-td.td1.borderRBL div {
-    display: none;
 }
 
 .more-info[style*=tab] tbody:after{
@@ -242,7 +237,6 @@ td.td1.borderRBL div {
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter,
  .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode,
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter {
-    display: none;
     position: absolute;
     right: -22px;
     top: 0px;
@@ -544,10 +538,6 @@ form:hover {
 .list-container .cover-block #cover-image-container #cover-image {
   max-width: none;
   flex-shrink: 0;
-}
-
-#cover-image {
-    display: none;
 }
 
 .list-container .status-menu-container .status-menu .status-button::after {
