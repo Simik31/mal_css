@@ -1,104 +1,22 @@
 /* Part of simik31's MAL css */
 
-.list-container .list-unit .list-table .list-item {
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-}
-
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.season,
-.list-container .list-unit .list-table .list-item:hover  .list-table-data .data.airing-started {
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    -o-transition: all 0.7s;
-    transition: all 0.7s;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.season,
-.list-container .list-unit .list-table .list-item .list-table-data .data.airing-started {
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    -o-transition: all 0.7s;
-    transition: all 0.7s;
-}
-
-.list-container .list-unit .list-table .list-item:hover .more-info[style*=tab] {
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
-.list-container .list-unit .list-table .list-item .more-info[style*=tab] {
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status,
+.list-container .status-menu-container .status-menu .status-button:hover,
+.list-container .status-menu-container .status-menu .status-button,
 .header .header-menu .header-info a:last-child::after, 
 .header .header-menu .list-menu .icon-menu.manga-list::after, 
 .header .header-menu .list-menu .icon-menu.anime-list::after, 
 .list-menu-float .icon-menu.profile::after, .list-container .status-menu-container .search-container #search-button::after, 
-.list-container .list-unit .list-status-title .stats #advanced-options-button::after {
-  transition-property: width, opacity;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
-}
-
-.list-menu-float form {
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    -webkit-transition-property: all;
-    transition-property: all;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -moz-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
-}
-
+.list-container .list-unit .list-status-title .stats #advanced-options-button::after,
+.list-menu-float form,
 form:hover {
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    -webkit-transition-property: all;
-    transition-property: all;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -moz-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress,
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter {
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .link {
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.volume {
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
+.list-container .list-unit .list-table .list-item,
 .list-item:before {
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -106,77 +24,39 @@ form:hover {
     transition: all 0.4s;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+.list-container .status-menu-container .search-container #search-box,
+.list-container .status-menu-container .search-container #search-box:hover {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5;
+    transition: all 0.5s;
 }
 
-.list-container .list-unit .list-table .list-item span a[href*="&tag=Rx"] {
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
+.list-container .list-unit .list-table .list-item .list-table-data .data.season,
+.list-container .list-unit .list-table .list-item .list-table-data .data.type,
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.type,
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.season,
+.list-container .list-unit .list-table .list-item:hover  .list-table-data .data.airing-started,
+.list-container .list-unit .list-table .list-item .list-table-data .data.airing-started {
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
 }
 
+.list-container .list-unit .list-table .list-item:hover .more-info[style*=tab],
+.list-container .list-unit .list-table .list-item .more-info[style*=tab],
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress,
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter,
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .link,
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.volume,
+.list-container .list-unit .list-table .list-item span a[href*="&tag=Rx"],
 .list-container .list-unit .list-table .list-item:hover span a[href*="&tag=Rx"]{
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
 	-o-transition: all 0.8s;
 	transition: all 0.8s;
 }
-
-.list-container .status-menu-container .search-container #search-box {
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5;
-}
-
-.list-container .status-menu-container .search-container #search-box:hover {
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5;
-}
-
-.list-container .status-menu-container .status-menu .status-button:hover {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.list-container .status-menu-container .status-menu .status-button {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.season {
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    -o-transition: all 0.7s;
-    transition: all 0.7s;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.type {
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    -o-transition: all 0.7s;
-    transition: all 0.7s;
-}
-
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.type {
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    -o-transition: all 0.7s;
-    transition: all 0.7s;
-}
-
-
-
-
 
 
 
