@@ -77,6 +77,84 @@ a[href="/login.php"],
 	font-size: 20px;
 }
 
+body {
+  font-family: consolas !important;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.rated a, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.magazine a,
+.list-container .list-unit .list-table .list-item .list-table-data .data.season a,
+.list-container .list-unit .list-table .list-item .list-table-data .data.score .link,
+.header .header-menu .header-info a:last-child::after, 
+.header .header-menu .list-menu .icon-menu.manga-list::after, 
+.header .header-menu .list-menu .icon-menu.anime-list::after, 
+.list-menu-float .icon-menu.profile::after, .list-menu-float .icon-menu .text, 
+.list-container .status-menu-container .search-container #search-button::after, 
+.list-container .list-unit .list-status-title .stats #advanced-options-button::after,
+input[type='text'],
+select {
+  font: normal normal normal 13px / 1 tahoma, verdana, arial, sans-serif;
+}
+
+a[href="/login.php"]:after,
+.header .header-menu .list-menu .icon-menu:before,
+.list-menu-float .icon-menu::before {
+    font: normal normal normal 14px / 1 FontAwesome;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .more a::before,
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .edit a::before {
+    font: normal normal normal 15px / 1 FontAwesome;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.score::before {
+  font: normal normal normal 28px / 1 FontAwesome;
+}
+
+.list-menu-float .icon-menu.setting:hover .text,
+.list-menu-float .icon-menu .text,
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting, 
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting,
+.list-menu-float .icon-menu.profile::after {
+    font-family: 'verdana', sans-serif;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress:before,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter:before,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter,
+.header .header-menu .header-info a:last-child,
+.header .header-menu .header-info,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter ~ .volume:before,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume,
+.list-unit::after,
+.list-container .list-unit .list-stats,
+.list-container .status-menu-container .status-menu .status-button {
+    font-weight: bold;
+}
+
+.header .header-menu .btn-menu #header-menu-button {
+  font-weight: normal;
+}
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .link {
+    font-weight: 100 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
