@@ -1,0 +1,82 @@
+/* Part of simik31's MAL css */
+
+a[href="/login.php"],
+.header-info a[href*="/history/"],
+.header-menu.other,
+.list-menu-float,
+.list-table .list-table-data .data.tags,
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more,
+.list-menu-float .icon-menu.setting .text,
+.list-container .status-menu-container .search-container #search-button {
+    font-size: 0 !important;
+}
+
+.header .header-menu .header-info a:last-child,
+.list-container .list-unit .list-table .list-item .list-table-data .data.season,
+.list-container .list-unit .list-table .list-item .list-table-data .data.airing-started,
+.list-menu-float .icon-menu.profile::after,
+.list-menu-float .icon-menu.setting:hover .text,
+.list-menu-float .icon-menu .text,
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status,
+.list-container .list-unit .list-table .list-item .list-table-data .data.season  {
+	font-size: 10px;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.type {
+    font-size: 11px !important;
+}
+
+.list-unit::after {
+	font-size: 12px;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress a, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter a,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress span:only-child, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:only-child,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress span:nth-child(2), 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:nth-child(2),
+.header .header-menu .header-info,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress:before,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter:before,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter ~ .volume:before,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume a,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume span:only-child,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume span:nth-child(2),
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting, 
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting,
+.list-container .status-menu-container .status-menu .status-button {
+  font-size: 13px !important;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter .fa,
+.header .header-menu .header-info a:last-child .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-volume .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-volume .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-episode .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-chapter .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume .fa,
+  font-size: 14px;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .link {
+	font-size: 17px !important;
+}
+
+.header .header-menu .btn-menu {
+  font-size: 18px;
+}
+
+.header .header-title {
+	font-size: 20px;
+}
+
+
+
+
