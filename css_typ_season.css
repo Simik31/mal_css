@@ -41,3 +41,8 @@
 .list-table .list-table-data .data a {
   color: var(--text-color) !important;
 }
+
+.list-table .list-table-data a:not(.edit-disabled):hover {
+  color: var(--text-color) !important;
+  text-decoration: none;
+}
