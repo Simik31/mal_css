@@ -1,11 +1,25 @@
 /* Part of simik31's MAL css */
 
 .list-menu-float {
-  top: 305px !important;
+	top: 305px !important;
+    position: relative;
+    display: block;
+    width: 1004px;
+    height: 0;
+    margin: 0px auto;
+    border: none;
+    text-align: left;
+    z-index: 38;
 }
 
-.list-menu-float .icon-menu,
-.list-menu-float .icon-menu:not(.profile):hover {
+
+.list-menu-float form {
+    display: inline-block;
+    width: 30px;
+    margin-right: 3px;
+}
+
+.list-menu-float .icon-menu, .list-menu-float .icon-menu:not(.profile):hover {
     color: var(--color);
     margin-right: 3px;
     display: inline-block;
@@ -53,11 +67,13 @@
 }
 
 
+.list-menu-float .icon-menu.quick-add.List_LightBox:hover,
 .list-menu-float .icon-menu.anime-list:hover,
 .list-menu-float .icon-menu.manga-list:hover,
 .list-menu-float .icon-menu.history:hover,
 .list-menu-float .icon-menu.export:hover,
-.list-menu-float .icon-menu.logout:hover {
+.list-menu-float .icon-menu.logout:hover,
+.list-menu-float .icon-menu.profile:hover {
     margin-right: 79px !important;
     color: var(--text-color);
 }
@@ -134,35 +150,23 @@
   color: inherit;
 }
 
-.list-menu-float .icon-menu.profile::after {
+.list-menu-float .icon-menu.profile::after, {
   position: absolute;
   overflow: hidden;
   width: 0;
   opacity: 0;
 }
 
-.list-menu-float .icon-menu.profile:hover::after {
-  width: 100px;
-  opacity: 1;
+form:hover {
+    margin-right: 79px;
 }
 
-.list-menu-float {
-    position: relative;
-    display: block;
-    width: 1020px;
-    height: 0;
-    right: -10px;
-    padding-left: 0;
-    margin: 0px auto;
-    border: none;
-    background: 0 0;
-    text-align: left;
-    z-index: 38;
+.list-menu-float .icon-menu.profile::after, .list-menu-float .icon-menu .text {
+  white-space: nowrap;
 }
 
-.list-menu-float form {
-    display: inline-block;
-    width: 30px;
-    margin-right: 3px;
-}
 
+.list-menu-float .icon-menu.profile::after, .list-container .status-menu-container .search-container #search-button::after, 
+.list-container .list-unit .list-status-title .stats #advanced-options-button::after {
+  position: absolute;
+}
