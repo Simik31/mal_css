@@ -18,7 +18,9 @@ a[href="/login.php"],
 .list-menu-float .icon-menu.setting:hover .text,
 .list-menu-float .icon-menu .text,
 .list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status,
-.list-container .list-unit .list-table .list-item .list-table-data .data.season  {
+.list-container .list-unit .list-table .list-item .list-table-data .data.season,
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting, 
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
 	font-size: 10px;
 }
 
@@ -46,8 +48,6 @@ a[href="/login.php"],
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume a,
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume span:only-child,
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume span:nth-child(2),
-.list-menu-float .icon-menu.setting:hover .text .link-list-setting, 
-.list-menu-float .icon-menu.setting:hover .text .link-style-setting,
 .list-container .status-menu-container .status-menu .status-button {
   font-size: 13px !important;
 }
@@ -61,7 +61,7 @@ a[href="/login.php"],
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-volume .fa,
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-episode .fa,
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-chapter .fa,
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume .fa {
   font-size: 14px;
 }
 
