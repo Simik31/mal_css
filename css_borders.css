@@ -1,15 +1,16 @@
 /* Part of simik31's MAL css */
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter,
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter,
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode,
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-volume,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter,
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-volume,
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-episode,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode,
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-chapter,
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-episode,
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
-	border-left: 1px solid var(--text-color);
+	border-left: 1px solid var(--text-color) !important;
 }
 
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting, 
