@@ -92,13 +92,6 @@ form:hover {
     transition: all 0.8s;
 }
 
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter {
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.volume {
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
