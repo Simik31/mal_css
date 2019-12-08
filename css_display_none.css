@@ -40,7 +40,14 @@ i.fa.fa-sort-asc.sort-icon,
 .list-container .list-unit .list-table .list-item .list-table-data .data.magazine,
 .list-unit .list-status-title .text,
 #advanced-options-button,
-.list-table>tbody:first-of-type
+.list-table>tbody:first-of-type,
+#cover-image,
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more,
+td.td1.borderRBL div,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter,
+ .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter
 {
     display: none !important;
 }
