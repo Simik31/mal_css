@@ -34,7 +34,6 @@ i.fa.fa-sort-asc.sort-icon,
 .header-title.number,
 .header-title.title,
 .header-title.tags,
-.header-title.started,
 .list-container .list-unit .list-status-title .stats #show-stats-button,
 .list-container .list-unit .list-table .list-item .list-table-data .data.rated,
 .list-container .list-unit .list-table .list-item .list-table-data .data.magazine,
@@ -43,7 +42,7 @@ i.fa.fa-sort-asc.sort-icon,
 .list-table>tbody:first-of-type,
 #cover-image,
 .list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more,
-td.td1.borderRBL div
-{
+td.td1.borderRBL div,
+.more-info[style*=tab] tbody:after {
     display: none !important;
 }
