@@ -8,10 +8,8 @@
     right: 0;
     height: 13px;
     padding: 5px 0;
-    border-top: 1px solid var(--text-color) !important;
 	background-color: var(--color) !important;
 	color: var(--text-color) !important;
-    font-size: 10px;
     opacity: 1;
 }
 
@@ -26,7 +24,6 @@
     background-color: var(--color);
 	background-color: var(--color) !important;
 	color: var(--text-color) !important;
-    font-size: 11px;
     opacity: 1;
     color: var(--text-color);
 }

@@ -4,13 +4,7 @@
     width: 1024px;
     padding-bottom: 10px;
     text-align: center;
-    border-bottom: 2px solid var(--color);
 } 
-
-.list-container .status-menu-container {
-    border-bottom: 12px solid var(--bg-color) !important;
-}
-}
 
 .list-container .status-menu-container .status-menu .status-button:hover {
     background: none;
@@ -23,18 +17,13 @@
     height: 30px;
     line-height: 30px;
     padding: 12px 15px;
-    font-size: 13px;
-    font-weight: bold;
 }
 
 .list-container .status-menu-container .status-menu .status-button.all_anime:hover {
     background-color: var(--all);
 }
 
-.list-container .status-menu-container .status-menu .status-button.watching:hover {
-    background-color: var(--watching);
-}
-
+.list-container .status-menu-container .status-menu .status-button.watching:hover,
 .list-container .status-menu-container .status-menu .status-button.reading:hover {
     background-color: var(--watching);
 }
@@ -51,11 +40,7 @@
     background-color: var(--dropped);
 }
 
-.list-container .status-menu-container .status-menu .status-button.plantowatch:hover {
-    background-color: var(--plan);
-	color: var(--text-secondary);
-}
-
+.list-container .status-menu-container .status-menu .status-button.plantowatch:hover,
 .list-container .status-menu-container .status-menu .status-button.plantoread:hover  {
     background-color: var(--plan);
 	color: var(--text-secondary);

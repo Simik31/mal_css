@@ -2,14 +2,11 @@
 
 .list-container .status-menu-container .search-container #search-button {
 	color: inherit;
-    font-size: 14px;
     height: 14px;
     margin: 0;
-    border-radius: 6px;
     background: url("https://raw.githack.com/Simik31/mal_css/master/img/search.png") var(--color);
     width: 28px;
     height: 28px;
-    font-size: 0;
 }
 
 .list-container .status-menu-container .search-container {
@@ -21,7 +18,6 @@
 .list-container .status-menu-container .search-container #search-box {
 	margin: 0;
     width: 0;
-    border: 0;
     height: 25px;
 }
 
@@ -31,7 +27,6 @@
 
 .list-container .status-menu-container .search-container #search-box.open {
     width: 148px;
-    border: 0;
     height: 23px;
     box-shadow: 0 0 2px 1px var(--color);
 }
@@ -47,7 +42,7 @@
 }
 
 #list-container #status-menu .search-container {
-  right: calc((100% - 1024px)/2 + 10px);;
+  right: calc((100% - 1024px)/2 + 10px);
 }
 
 .list-container .status-menu-container .search-container #search-button i {

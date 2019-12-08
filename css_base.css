@@ -1,12 +1,7 @@
 /* Part of simik31's MAL css */
 
-.list-table .list-table-data .data.tags {
-    font-size: 0;
-}
-
 body {
   color: var(--text-color) !important;
-  font-family: consolas !important;
   background-color: var(--bg-color) !important;
 }
 
@@ -63,7 +58,6 @@ body {
   right: 0;
 }
 
-/* Data Season */
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.season,
 .list-container .list-unit .list-table .list-item:hover  .list-table-data .data.airing-started {
     display: block;
@@ -83,32 +77,21 @@ body {
     padding: 5px 0 5px 0;
     border-top: 2px solid #3e3d3d;
     background-color: transparent;
-    font-size: 10px;
     opacity: 1;
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.rated a, 
 .list-container .list-unit .list-table .list-item .list-table-data .data.magazine a {
-  font: normal normal normal 13px / 1 tahoma, verdana, arial, sans-serif;
   color: #cccccc;
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.season a {
-  font: normal normal normal 13px / 1 tahoma, verdana, arial, sans-serif;
   color: #cccccc;
 }
 
-/* Add / Edit / More */
-.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more {
-  font-size: 0;
-}
-/* More */
 .list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .more a::before {
     content: "\f078";
     display: inline-block;
-    font: normal normal normal 15px / 1 FontAwesome;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-rendering: auto;
     color: var(--text-color);
     margin-top: 13px;
@@ -143,10 +126,6 @@ body {
     padding: 10px 0 10px 10px;
 }
 
-.more-info[style*=tab] tbody:after{
-  display: none !important;
-}
-/* Data Score */
 .list-container .list-unit .list-table .list-item .list-table-data .data.score {
   right: 13px;
   top: 13px;
@@ -154,9 +133,6 @@ body {
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.score::before {
   display: inline-block;
-  font: normal normal normal 28px / 1 FontAwesome;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-rendering: auto;
   position: absolute;
   color: var(--color);
@@ -167,19 +143,16 @@ body {
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.score .link {
-  font: normal normal normal 13px / 1 tahoma, verdana, arial, sans-serif;
   color: var(--text-color);
   top: 5.5px;
   right: 0;
   width: 28px;
   position: absolute;
 }
-/* Data Progress */
+
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress:before {
     padding: 2px 0px 0px 0;
     content: "Ep:";
-    font-size: 13px !important;
-    font-weight: bold;
     pointer-events: all;
     color: var(--text-color);
 	margin-right: 5px;
@@ -188,8 +161,6 @@ body {
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter:before {
     padding: 2px 0px 0px 0;
     content: "Chapters:";
-    font-size: 13px !important;
-    font-weight: bold;
     pointer-events: all;
     color: var(--text-color);
     margin-right: 5px;
@@ -197,8 +168,6 @@ body {
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress, 
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter {
-    font-size: 13px !important;
-    font-weight: bold;
     pointer-events: all;
     color: var(--text-color);
     position: absolute;
@@ -220,37 +189,6 @@ body {
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress a, 
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter a {
   color: var(--text-color);
-  font-size: 13px;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress span:only-child, 
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:only-child {
-  font-size: 13px;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress span:nth-child(2), 
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:nth-child(2) {
-  font-size: 13px;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode,
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter,
- .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode,
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter {
-    position: absolute;
-    right: -22px;
-    top: 0px;
-    padding: 5px 5px 6px 5px;
-    border-left: 1px solid #a0102b;
-    background-color: var(--color);
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode .fa,
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter .fa,
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode .fa,
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter .fa {
-  font-size: 14px;
-  text-shadow: #000 1px 1px 1px;
 }
 
 a[href="/login.php"] {
@@ -266,21 +204,13 @@ a[href="/login.php"] {
     box-sizing: border-box;
     cursor: pointer;
     text-align: center;
-    font-size: 0;
     margin-top: -7px;
 }
 
 a[href="/login.php"]:after {
     content: "";
     display: inline-block;
-    font: normal normal normal 14px / 1 FontAwesome;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-rendering: auto;
-}
-
-.header-info a[href*="/history/"] {
-    font-size: 0 !important;
 }
 
 .header .header-menu .header-info a:last-child {
@@ -290,8 +220,6 @@ a[href="/login.php"]:after {
     line-height: 19px;
     margin-top: 5px;
     padding: 0 5px;
-    font-size: 10px;
-    font-weight: bold;
 }
 
 .header .header-menu .list-menu .icon-menu {
@@ -315,9 +243,6 @@ a[href="/login.php"]:after {
 .header .header-menu .list-menu .icon-menu:before {
     content: "";
     display: inline-block;
-    font: normal normal normal 14px / 1 FontAwesome;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-rendering: auto;
 }
 
@@ -331,7 +256,6 @@ a[href="/login.php"]:after {
 }
 
 .header .header-menu .header-info {
-    font-size: 11px !important;
     color: var(--text-color)fff !important;
     display: inline-block;
     vertical-align: top;
@@ -339,7 +263,6 @@ a[href="/login.php"]:after {
     cursor: pointer;
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
     position: fixed;
     left: 853px;
     top: 8px;
@@ -356,12 +279,9 @@ a[href="/login.php"]:after {
     border: none;
     background: 0 0;
     text-align: left;
-    font-size: 0;
     z-index: 999 !important;
 }
 
-
-/* Footer Font Color */
 #copyright,
 #loading-spinner {
   color: gray;
@@ -373,7 +293,6 @@ a[href="/login.php"]:after {
 .list-menu-float .icon-menu.profile::after, .list-menu-float .icon-menu .text, 
 .list-container .status-menu-container .search-container #search-button::after, 
 .list-container .list-unit .list-status-title .stats #advanced-options-button::after {
-  font: normal normal normal 13px / 1 tahoma, verdana, arial, sans-serif;
   height: 16px;
   white-space: nowrap;
   color: inherit;
@@ -406,7 +325,6 @@ select {
     border: 0;
     border-bottom: 0 !important;
     vertical-align: middle;
-    font: normal normal normal 13px / 1 tahoma, verdana, arial, sans-serif;
     padding: 5px;
     margin: 0;
     outline: none;
@@ -435,16 +353,12 @@ select option {
   top: 10px;
 }
 
-.header .header-menu .btn-menu {
-  font-size: 18px;
-}
 
 .header .header-menu .btn-menu a {
   color: inherit;
 }
 
 .header .header-menu .btn-menu #header-menu-button {
-  font-weight: normal;
   cursor: unset;
 }
 
@@ -453,17 +367,12 @@ select option {
 }
 
 .header .header-menu .header-info {
-  font-size: 13px;
   margin-top: 3px;
   margin-right: 17px;
 }
 
 .header .header-menu .header-info a {
   color: inherit;
-}
-
-.header .header-menu .header-info a:last-child .fa {
-  font-size: 14px;
 }
 
 .header .header-menu .list-menu {
@@ -490,7 +399,6 @@ select option {
     text-decoration: none !important;
     display: inline-block;
     line-height: 40px;
-    font-size: 20px;
     text-align: left;
 }
 
@@ -505,7 +413,6 @@ select option {
     border: none;
     background: 0 0;
     text-align: left;
-    font-size: 0;
     z-index: 38;
 }
 

@@ -23,10 +23,6 @@
   content: "";
 }
 
-.list-menu-float .icon-menu::before {
-  font: normal normal normal 14px / 1 FontAwesome;
-}
-
 .list-menu-float .icon-menu.quick-add::before {
   content: "";
 }
@@ -66,13 +62,9 @@
 .list-menu-float .icon-menu.setting:hover .text {
     width: 190px !important;
     top: 14px !important;
-    font-size: 10px;
-    font-family: 'verdana', sans-serif;
 }
 
 .list-menu-float .icon-menu .text {
-    font-family: 'verdana', sans-serif;
-    font-size: 10px;
     margin-left: -25px;
     margin-top: -14px;
     padding: 10px 0px 20px 0px;
@@ -87,7 +79,6 @@
 }
 
 .list-menu-float .icon-menu.setting .text {
-    font-size: 0;
     top: 14px;
     height: 0px !important;
     width: 0;
@@ -101,8 +92,6 @@
 
 .list-menu-float .icon-menu.profile::after {
     content: "Profile";
-    font-family: 'verdana', sans-serif;
-    font-size: 10px;
     top: 0px;
     left: 25px;
     padding: 10px 0px 20px 0px;
@@ -115,16 +104,12 @@
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting, 
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
     background-color: transparent;
-    font-size: 13px;
     line-height: 13px;
     height: auto;
-    border: 0;
     display: inline-block;
     position: relative;
     top: 0;
     width: auto;
-    font-size: 10px;
-    font-family: 'verdana', sans-serif !important;
 }
 
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting {
@@ -133,7 +118,6 @@
 
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
   padding-left: 10px;
-  border-left: 1px solid var(--text-color);
 }
 
 .list-menu-float .icon-menu {

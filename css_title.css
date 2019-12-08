@@ -5,14 +5,11 @@
     left: 0;
     padding: 4px 4px 4px 14px;
     margin-right: 14px;
-    font-size: 18px;
     margin-left: -100%;
     opacity: 0;
     top: 191.5px;
     color: var(--text-color);
-    font-size: 17px !important;
     text-decoration: none !important;
-    font-weight: 100 !important;
     text-overflow: ellipsis;
     white-space: nowrap;
     max-width: 210px;

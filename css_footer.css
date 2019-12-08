@@ -8,9 +8,6 @@
     padding-bottom: 15px;
     background-color: var(--bg-color);
     text-align: center;
-    font-size: 12px;
-    border-top: 2px solid var(--color);
     color: var(--color);
-    font-weight: bold;
     white-space: pre;
 }

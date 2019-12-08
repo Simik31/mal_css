@@ -1,16 +1,14 @@
+/* Part of simik31's MAL css */
+
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter:before {
     padding: 2px 0px 0px 0;
     content: "Chapters:";
-    font-size: 13px !important;
-    font-weight: bold;
     pointer-events: all;
     color: var(--text-color);
     margin-right: 5px;
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter {
-    font-size: 13px !important;
-    font-weight: bold;
     pointer-events: all;
     color: var(--text-color);
     position: absolute;
@@ -30,33 +28,21 @@
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter a {
   color: var(--text-color);
-  font-size: 13px;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:only-child {
-  font-size: 13px;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:nth-child(2) {
-  font-size: 13px;
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter,
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter,
  .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode {
-    display: none;
     position: absolute;
     right: -22px;
     top: 0px;
     padding: 5px 5px 6px 5px;
-    border-left: 1px solid #a0102b;
     background-color: var(--color);
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter .fa,
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter .fa,
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode .fa {
-  font-size: 14px;
   text-shadow: #000 1px 1px 1px;
 }
 
@@ -70,12 +56,10 @@
   display: block;
 }
 
- .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode {
-    display: none;
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode {
     position: absolute;
     right: -22px;
     top: 0px;
     padding: 5px 5px 6px 5px;
-    border-left: 1px solid #a0102b;
     background-color: var(--color);
 }
