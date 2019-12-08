@@ -4,7 +4,8 @@
   top: 305px !important;
 }
 
-.list-menu-float .icon-menu, .list-menu-float .icon-menu:not(.profile):hover {
+.list-menu-float .icon-menu,
+.list-menu-float .icon-menu:not(.profile):hover {
     color: var(--color);
     margin-right: 3px;
     display: inline-block;
@@ -52,9 +53,11 @@
 }
 
 
-.icon-menu.quick-add.List_LightBox:hover, .list-menu-float .icon-menu.anime-list:hover,
-.list-menu-float .icon-menu.manga-list:hover, .list-menu-float .icon-menu.history:hover,
-.list-menu-float .icon-menu.export:hover, .list-menu-float .icon-menu.logout:hover, .icon-menu.profile:hover {
+.list-menu-float .icon-menu.anime-list:hover,
+.list-menu-float .icon-menu.manga-list:hover,
+.list-menu-float .icon-menu.history:hover,
+.list-menu-float .icon-menu.export:hover,
+.list-menu-float .icon-menu.logout:hover {
     margin-right: 79px !important;
     color: var(--text-color);
 }
@@ -123,3 +126,43 @@
 .list-menu-float .icon-menu {
 	background-color: var(--bg-color) !important;
 }
+
+.list-menu-float .icon-menu.profile::after,
+.list-menu-float .icon-menu .text {
+  height: 16px;
+  white-space: nowrap;
+  color: inherit;
+}
+
+.list-menu-float .icon-menu.profile::after {
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  opacity: 0;
+}
+
+.list-menu-float .icon-menu.profile:hover::after {
+  width: 100px;
+  opacity: 1;
+}
+
+.list-menu-float {
+    position: relative;
+    display: block;
+    width: 1020px;
+    height: 0;
+    right: -10px;
+    padding-left: 0;
+    margin: 0px auto;
+    border: none;
+    background: 0 0;
+    text-align: left;
+    z-index: 38;
+}
+
+.list-menu-float form {
+    display: inline-block;
+    width: 30px;
+    margin-right: 3px;
+}
+
