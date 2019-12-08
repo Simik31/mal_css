@@ -2,9 +2,7 @@
 
 .list-container .list-unit .list-stats {
 	width: 1024px;
-    border-top: 2px solid var(--color);
     background: var(--bg-color);
-    font-weight: bold;
 }
 
 .list-stats {
