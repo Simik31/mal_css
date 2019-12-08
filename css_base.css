@@ -15,38 +15,19 @@ body {
     top: 0;
     height: 40px;
     width: 1024px;
-    background-color: var(--bg-color);*/
+    background-color: var(--bg-color);
     color: var(--text);
     z-index: 100;
     border-bottom: 2px solid var(--color);
 }
 
-.status-menu-container.fixed + div.list-block {
-    margin-top: 0;
-}
-
-/* Sort Menu */
-
-body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hover .list-table-header {
-    width: 437px !important;
-    right: 27px !important;
-}
-
-.list-container .list-unit .list-table tbody:first-child .list-table-header .header-title {
-    background: none;
-    border-bottom: 0;
-    font-weight: bold;
-}
-
 .list-container .list-unit .list-table {
-    display: inline-block;
-    min-height:calc(100vh - 451px);
-    width: 100%;
-    border: transparent;
-    list-style: none;
-    background: var(--bg-color);
-    color: var(--text-color);
-    padding-bottom: 15px;
+    min-height:calc(100vh - 448px);
+    margin-bottom: 10px;
+}
+
+.list-container .list-unit {
+  background-color: var(--bg-color);
 }
 
 .list-container .list-unit .list-table .list-item {
@@ -59,7 +40,6 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     width: 243.5px;
     height: 410px;
     box-sizing: border-box;
-    background-color: var(--bg-color);
     border: 1px solid var(--color);
     margin: 10px 0 0 10px;
     overflow: hidden;
@@ -68,7 +48,7 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
 .list-container .list-unit .list-table .list-item .list-table-data .data {
   position: absolute;
   padding: 0;
-  border-style: none;
+  border: none;
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.image {
@@ -230,7 +210,18 @@ td.td1.borderRBL div {
 	margin-right: 5px;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress {
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter:before {
+    padding: 2px 0px 0px 0;
+    content: "Chapters:";
+    font-size: 13px !important;
+    font-weight: bold;
+    pointer-events: all;
+    color: var(--text-color);
+    margin-right: 5px;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter {
     font-size: 13px !important;
     font-weight: bold;
     pointer-events: all;
@@ -245,25 +236,45 @@ td.td1.borderRBL div {
     opacity: 0;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress div {
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress div, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter div {
   display: inline-block;
   vertical-align: top;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress a {
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress a, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter a {
   color: var(--text-color);
   font-size: 13px;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress span:only-child {
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress span:only-child, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:only-child {
   font-size: 13px;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress span:nth-child(2) {
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress span:nth-child(2), 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter span:nth-child(2) {
   font-size: 13px;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode .fa {
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter,
+ .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter {
+    display: none;
+    position: absolute;
+    right: -22px;
+    top: 0px;
+    padding: 5px 5px 6px 5px;
+    border-left: 1px solid #a0102b;
+    background-color: var(--color);
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter .fa {
   font-size: 14px;
   text-shadow: #000 1px 1px 1px;
 }
@@ -375,11 +386,6 @@ a[href="/login.php"]:after {
     z-index: 999 !important;
 }
 
-
-/* Header Height */
-.list-menu-float {
-  top: 295px !important;
-}
 
 /* Footer Font Color */
 #copyright,
@@ -771,10 +777,6 @@ a.status-button:hover {
   min-height: 0;
 }
 
-.list-container .list-unit {
-  width: 100%;
-}
-
 .list-container .list-unit .list-status-title {
     margin-top: -40px;
     position: absolute;
@@ -825,7 +827,8 @@ a.status-button:hover {
 #fancybox-overlay {background-color: transparent !important;}
 #advanced-options .sort-widget input[type=radio]:checked:disabled + label {color: var(--text-color)fff !important;}
 
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress {
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress,
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter {
     display: block;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
@@ -836,7 +839,8 @@ a.status-button:hover {
 }
 
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .add-edit-more,
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress .icon-add-episode {
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress .icon-add-episode,
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.chapter .icon-add-chapter {
   display: block;
 }
 
