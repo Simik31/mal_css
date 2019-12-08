@@ -1,5 +1,10 @@
 /* Part of simik31's MAL css */
 
+
+.status-menu-container.fixed + div.list-block {
+    margin-top: 0;
+}
+
 .list-table .list-table-data .data.tags {
     font-size: 0;
 }

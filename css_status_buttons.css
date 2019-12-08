@@ -8,7 +8,7 @@
 } 
 
 .list-container .status-menu-container {
-    border-bottom: 10px solid var(--bg-color) !important;
+    border-bottom: 12px solid var(--bg-color) !important;
 }
 }
 
