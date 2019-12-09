@@ -1,0 +1,13 @@
+/* Part of simik31's MAL css */
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .edit a::before {
+	display: inline-block;
+    color: var(--text-color);
+    margin-top: 13px;
+    margin-left: 13px;
+    position: absolute;
+    z-index: 98;
+    background-color: var(--color);
+    padding: 5px;
+    content: "";
+}
