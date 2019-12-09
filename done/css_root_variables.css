@@ -25,7 +25,7 @@
 	}
 [data-query*="status\":3"] {
 	--color: var(--onhold);
-	--rx-cover: "img/rx-onhold.png";
+	--rx-cover: url("https://raw.githubusercontent.com/Simik31/mal_css/master/done/img/rx-all.png");
 	}
 [data-query*="status\":4"] {
 	--color: var(--dropped);
