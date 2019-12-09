@@ -1,1 +1,0 @@
-https://raw.githack.com/
