@@ -17,7 +17,7 @@ body {
 }
 
 .list-container .list-unit .list-table {
-    min-height:calc(100vh - 448px);
+    min-height:calc(100vh - 466px);
     margin-bottom: 10px;
 }
 
