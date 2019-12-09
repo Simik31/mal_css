@@ -1,5 +1,7 @@
 /* Main file of simik31's MAL css */
 
+@\import "done/css_anime_progress.css";
+
 @\import "done/css_borders.css";
 
 @\import "done/css_button_add.css";
@@ -15,6 +17,10 @@
 @\import "done/css_inner_more.css";
 
 @\import "done/css_inner_status.css";
+
+@\import "done/css_manga_chapters.css";
+
+@\import "done/css_manga_volume.css";
 
 @\import "done/css_menu_float.css";
 
