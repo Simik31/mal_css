@@ -85,10 +85,9 @@ body {
 .list-container .list-unit .list-table .list-item .list-table-data .data.magazine a,
 .list-container .list-unit .list-table .list-item .list-table-data .data.season a,
 .list-container .list-unit .list-table .list-item .list-table-data .data.score .link,
-.header .header-menu .header-info a:last-child::after, 
+.header .header-menu .header-info a:last-child::after,
 .header .header-menu .list-menu .icon-menu.manga-list::after, 
-.header .header-menu .list-menu .icon-menu.anime-list::after, 
-.list-menu-float .icon-menu.profile::after, .list-menu-float .icon-menu .text, 
+.header .header-menu .list-menu .icon-menu.anime-list::after,
 .list-container .status-menu-container .search-container #search-button::after, 
 .list-container .list-unit .list-status-title .stats #advanced-options-button::after,
 input[type='text'],
@@ -139,22 +138,3 @@ a[href="/login.php"]:after,
 .list-container .list-unit .list-table .list-item .list-table-data .data.title .link {
     font-weight: 100 !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
