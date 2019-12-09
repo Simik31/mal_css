@@ -143,3 +143,7 @@ form:hover {
 	width:81px!important;
 	opacity:1;
 }
+
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting, .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+	background: none;
+}
