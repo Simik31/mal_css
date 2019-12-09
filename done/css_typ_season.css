@@ -1,0 +1,45 @@
+/* Part of simik31's MAL css */
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.season {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 13px;
+    padding: 5px 0;
+	background-color: var(--color) !important;
+	color: var(--text-color) !important;
+    opacity: 1;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.type {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 37px;
+    padding: 3px 0 7px 0;
+    background-color: var(--color);
+	background-color: var(--color) !important;
+	color: var(--text-color) !important;
+    opacity: 1;
+    color: var(--text-color);
+}
+
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.type {
+    display: block;
+    margin-left: 0;
+    opacity: 0;
+    height: 0;
+}
+
+.list-table .list-table-data .data a {
+  color: var(--text-color) !important;
+}
+
+.list-table .list-table-data a:not(.edit-disabled):hover {
+  color: var(--text-color) !important;
+  text-decoration: none;
+}
