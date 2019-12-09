@@ -17,25 +17,25 @@
 
 [data-query*="status\":1"] {
 	--color: var(--watching);
-	--rx-cover: "img/rx-watching.png";
+	--rx-cover: url("https://raw.githubusercontent.com/Simik31/mal_css/master/done/img/rx-watching.png");
 	}
 [data-query*="status\":2"] {
 	--color: var(--completed);
-	--rx-cover: "img/rx-completed.png";
+	--rx-cover: url("https://raw.githubusercontent.com/Simik31/mal_css/master/done/img/rx-completed.png");
 	}
 [data-query*="status\":3"] {
 	--color: var(--onhold);
-	--rx-cover: url("https://raw.githubusercontent.com/Simik31/mal_css/master/done/img/rx-all.png");
+	--rx-cover: url("https://raw.githubusercontent.com/Simik31/mal_css/master/done/img/rx-onhold.png");
 	}
 [data-query*="status\":4"] {
 	--color: var(--dropped);
-	--rx-cover: "img/rx-dropped.png";
+	--rx-cover: url("https://raw.githubusercontent.com/Simik31/mal_css/master/done/img/rx-dropped.png");
 	}
 [data-query*="status\":6"] {
 	--color: var(--plan);
-	--rx-cover: "img/rx-plan.png";
+	--rx-cover: url("https://raw.githubusercontent.com/Simik31/mal_css/master/done/img/rx-plan.png");
 	}
 [data-query*="status\":7"] {
 	--color: var(--all);
-	--rx-cover: "img/rx-all.png";
+	--rx-cover: url("https://raw.githubusercontent.com/Simik31/mal_css/master/done/img/rx-all.png");
 	}
