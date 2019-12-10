@@ -1,171 +1,145 @@
-/* Part of simik31's MAL css */
-
-@\import "css_anime_progress.css";
-@\import "css_borders.css";
-@\import "css_button_add.css";
-@\import "css_cover.css";
-@\import "css_display_none.css";
-@\import "css_fonts.css";
-@\import "css_footer.css";
-@\import "css_inner_border.css";
-@\import "css_inner_edit.css";
-@\import "css_inner_more.css";
-@\import "css_inner_status.css";
-@\import "css_manga_chapters.css";
-@\import "css_manga_volume.css";
-@\import "css_menu_float.css";
-@\import "css_root_variables.css";
-@\import "css_rx_content.css";
-@\import "css_scrollbar.css";
-@\import "css_search.css";
-@\import "css_stats.css";
-@\import "css_status_buttons.css";
-@\import "css_title.css";
-@\import "css_typ_season.css";
-
-body {
-  color: var(--text-color) !important;
-  background-color: var(--bg-color) !important;
+ @\import "css_anime_progress.css";
+ @\import "css_borders.css";
+ @\import "css_button_add.css";
+ @\import "css_cover.css";
+ @\import "css_display_none.css";
+ @\import "css_fonts.css";
+ @\import "css_footer.css";
+ @\import "css_inner_border.css";
+ @\import "css_inner_edit.css";
+ @\import "css_inner_more.css";
+ @\import "css_inner_status.css";
+ @\import "css_manga_chapters.css";
+ @\import "css_manga_volume.css";
+ @\import "css_menu_float.css";
+ @\import "css_root_variables.css";
+ @\import "css_rx_content.css";
+ @\import "css_scrollbar.css";
+ @\import "css_search.css";
+ @\import "css_stats.css";
+ @\import "css_status_buttons.css";
+ @\import "css_title.css";
+ @\import "css_typ_season.css";
+ body {
+	color: var(--text-color) !important;
+	background-color: var(--bg-color) !important;
 }
-
-.status-menu-container.fixed + div.list-block {
-    margin-top: 0;
+ .status-menu-container.fixed + div.list-block {
+	margin-top: 0;
 }
-
-.list-container {
-    width: 1024px;
-    border: 0;
+ .list-container {
+	width: 1024px;
+	border: 0;
 }
-
-.list-container .status-menu-container {
-    position: fixed;
-    top: 0;
-    height: 40px;
-    width: 1024px;
-    background-color: var(--bg-color);
-    color: var(--text);
-    z-index: 100;
-    border-bottom: 2px solid var(--color);
+ .list-container .status-menu-container {
+	position: fixed;
+	top: 0;
+	height: 40px;
+	width: 1024px;
+	background-color: var(--bg-color);
+	color: var(--text);
+	z-index: 100;
+	border-bottom: 2px solid var(--color);
 }
-
-.list-container .list-unit .list-table {
-    min-height:calc(100vh - 466px);
-    margin-bottom: 10px;
+ .list-container .list-unit .list-table {
+	min-height:calc(100vh - 466px);
+	margin-bottom: 10px;
 }
-
-.list-container .list-unit {
-  background-color: var(--bg-color);
+ .list-container .list-unit {
+	background-color: var(--bg-color);
 }
-
-.list-container .list-unit .list-table .list-item {
-    position: relative;
-    display: inline-block;
-    width: 243.5px;
-    height: 410px;
-    box-sizing: border-box;
-    border: 1px solid var(--color);
-    margin: 10px 0 0 10px;
-    overflow: hidden;
+ .list-container .list-unit .list-table .list-item {
+	position: relative;
+	display: inline-block;
+	width: 243.5px;
+	height: 410px;
+	box-sizing: border-box;
+	border: 1px solid var(--color);
+	margin: 10px 0 0 10px;
+	overflow: hidden;
 }
-
-.list-container .list-unit .list-table .list-item .list-table-data .data {
-  position: absolute;
+ .list-container .list-unit .list-table .list-item .list-table-data .data {
+	position: absolute;
 }
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.image {
-  width: 100%;
-  height: 100%;
+ .list-container .list-unit .list-table .list-item .list-table-data .data.image {
+	width: 100%;
+	height: 100%;
 }
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.image .link::after {
-  content: '';
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+ .list-container .list-unit .list-table .list-item .list-table-data .data.image .link::after {
+	content: '';
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
-
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.season,
-.list-container .list-unit .list-table .list-item:hover  .list-table-data .data.airing-started {
-    opacity: 0;
-    height: 0;
+ .list-container .list-unit .list-table .list-item:hover .list-table-data .data.season, .list-container .list-unit .list-table .list-item:hover .list-table-data .data.airing-started {
+	opacity: 0;
+	height: 0;
 }
-
-.list-container .list-unit .list-table .list-item .more-info[style*=tab] {
-    position: absolute;
-    height: 100%;
-    background: var(--bg-color);
-    overflow-y: scroll;
-    z-index: 7;
-    opacity: 0;
+ .list-container .list-unit .list-table .list-item .more-info[style*=tab] {
+	position: absolute;
+	height: 100%;
+	background: var(--bg-color);
+	overflow-y: scroll;
+	z-index: 7;
+	opacity: 0;
 }
-
-.list-container .list-unit .list-table .list-item:hover .more-info[style*=tab] {
-    opacity: 1;
-    width: 100%;
+ .list-container .list-unit .list-table .list-item:hover .more-info[style*=tab] {
+	opacity: 1;
+	width: 100%;
 }
-
-.list-table .more-info .more-content {
-    padding: 50px 10px 0 10px;
+ .list-table .more-info .more-content {
+	padding: 50px 10px 0 10px;
 }
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.score {
-  right: 13px;
-  top: 13px;
+ .list-container .list-unit .list-table .list-item .list-table-data .data.score {
+	right: 13px;
+	top: 13px;
 }
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.score::before {
-  display: inline-block;
-  position: absolute;
-  color: var(--color);
-  content: "";
-  z-index: 0;
-  right: 0;
-  top: 0;
-}
-
-input[type='text'],
-select {
-    background-color: var(--bg-color);
-    border: 0 !important;
-    padding: 5px;
-    outline-color: var(--color);
-    color: var(--color) !important;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.score .link {
-  top: 5.5px;
-  right: 0;
-  width: 28px;
-  position: absolute;
-}
-
-.header {	
-  height: auto;	
-}
-
-.header .header-title {
+ .list-container .list-unit .list-table .list-item .list-table-data .data.score::before {
+	display: inline-block;
+	position: absolute;
 	color: var(--color);
-    z-index: 101;
-    background-image: none;
-    text-indent: 0;
-    top: 0;
-    left: calc((100% - 1024px)/2 + 10px);
-    position: fixed;
-    line-height: 40px;
-    text-align: left;
+	content: "";
+	z-index: 0;
+	right: 0;
+	top: 0;
 }
-
-.list-container .list-unit .list-status-title {
-    margin-top: -40px;
-    position: absolute;
-    background-color: var(--bg-color);
+ input[type='text'], select {
+	background-color: var(--bg-color);
+	border: 0 !important;
+	padding: 5px;
+	outline-color: var(--color);
+	color: var(--color) !important;
+}
+ .list-container .list-unit .list-table .list-item .list-table-data .data.score .link {
+	top: 5.5px;
+	right: 0;
+	width: 28px;
+	position: absolute;
+}
+ .header {
+	height: auto;
+}
+ .header .header-title {
+	color: var(--color);
+	z-index: 101;
+	background-image: none;
+	text-indent: 0;
+	top: 0;
+	left: calc((100% - 1024px)/2 + 10px);
+	position: fixed;
+	line-height: 40px;
+	text-align: left;
+}
+ .list-container .list-unit .list-status-title {
+	margin-top: -40px;
+	position: absolute;
+	background-color: var(--bg-color);
 	height: 40px;
 }
-
-.list-table .list-table-data .data {
-    border: none;
+ .list-table .list-table-data .data {
+	border: none;
 }
