@@ -1,5 +1,28 @@
 /* Part of simik31's MAL css */
 
+@\import "css_anime_progress.css";
+@\import "css_borders.css";
+@\import "css_button_add.css";
+@\import "css_cover.css";
+@\import "css_display_none.css";
+@\import "css_fonts.css";
+@\import "css_footer.css";
+@\import "css_inner_border.css";
+@\import "css_inner_edit.css";
+@\import "css_inner_more.css";
+@\import "css_inner_status.css";
+@\import "css_manga_chapters.css";
+@\import "css_manga_volume.css";
+@\import "css_menu_float.css";
+@\import "css_root_variables.css";
+@\import "css_rx_content.css";
+@\import "css_scrollbar.css";
+@\import "css_search.css";
+@\import "css_stats.css";
+@\import "css_status_buttons.css";
+@\import "css_title.css";
+@\import "css_typ_season.css";
+
 body {
   color: var(--text-color) !important;
   background-color: var(--bg-color) !important;
