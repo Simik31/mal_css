@@ -19,6 +19,7 @@
  @\import "css_stats.css";
  @\import "css_status_buttons.css";
  @\import "css_title.css";
+ @\import "css_transitions.css";
  @\import "css_typ_season.css";
  body {
 	color: var(--text-color) !important;
