@@ -1,0 +1,12 @@
+/* Part of simik31's MAL css */
+
+.list-container .list-unit .list-stats {
+	width: 1024px;
+    background: var(--bg-color);
+}
+
+.list-stats {
+  display:block !important;
+  padding-top:10px;
+  color:var(--color) !important;
+}
