@@ -1,0 +1,11 @@
+.header .header-title {
+    position: fixed;
+    top: 21px;
+    background-image: url(https://i.imgur.com/4ADYYT2.png);
+    background-size: 180px auto;
+    display: block;
+    width: 180px;
+    height: 30px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
