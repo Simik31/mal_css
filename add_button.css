@@ -9,24 +9,25 @@
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter a:hover,
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter a:hover,
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume a:hover {
-  color: var(--color) !important;
-  background-color: var(--text-color);
+	color: var(--color) !important;
+	background-color: var(--text-color);
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode,
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter,
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode,
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter {
+	border-top: 1px solid var(--text-color);
 	position: absolute;
-    right: -22px;
-    top: 0px;
-    padding: 5px 5px 5px 5px;
-    background-color: var(--color);
+	right: -22px;
+	top: -1px;
+	padding: 5px 5px 5px 5px;
+	background-color: var(--color);
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode .fa,
 .list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter .fa,
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode .fa,
 .list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter .fa {
-  text-shadow: 0 0 3px #000;
+	text-shadow: 0 0 3px #000;
 }
