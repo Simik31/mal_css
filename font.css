@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "BigNoodleToo";
+	src: url("https://static.playoverwatch.com/fonts/big-noodle-too-oblique-1eed6dbdd0.woff") format("woff");
+}
+
+* {
+	font-family: BigNoodleToo, impact, sans-serif !important;
+	font-size: 20px !important;
+}
