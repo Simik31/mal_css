@@ -50,7 +50,7 @@
 }
 
 #status-menu .status-button.plantowatch:hover, #status-menu .status-button.plantoread:hover {
-	color: var(--plantowatch);
+	color: var(--plan);
 }
 
 #status-menu .status-button.plantowatch, #status-menu .status-button.plantoread {
