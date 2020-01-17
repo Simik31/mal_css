@@ -1,0 +1,23 @@
+/* Part of simik31's MAL css */
+
+.list-container .status-menu-container .search-container {
+  right: calc((100% - 1024px)/2 + 10px);
+    position: fixed;
+    margin-top: -25px;
+}
+
+.list-container .status-menu-container .search-container #search-button {
+    margin: 0;
+    background: url("https://i.imgur.com/3j2ThUg.png") var(--color);
+    width: 28px;
+    height: 28px;
+}
+
+.list-container .status-menu-container .search-container #search-box {
+	margin: 0;
+}
+
+.list-container .status-menu-container .search-container #search-box.open {
+    width: 148px;
+    box-shadow: 0 0 2px 1px var(--color);
+}
