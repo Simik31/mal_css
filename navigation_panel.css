@@ -10,6 +10,7 @@
 	color: var(--text-color);
 	line-height: 30px;
 	padding: 12px 15px;
+  	text-shadow: 0 0 5px #000;
 }
 
 #status-menu .status-button.all_anime {
