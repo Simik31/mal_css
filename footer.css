@@ -1,0 +1,11 @@
+.list-unit::after {
+	content: "MyAnimeList.net is a property of MyAnimeList, LLC. ©2015 All Rights Reserved. \a Original design based on Overwatch by Simik31.";
+	position: absolute;
+	font-size: 18px;
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+	color: var(--color);
+	white-space: pre;
+  	text-shadow: 0 0 5px #000;
+}
