@@ -1,0 +1,37 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/* You're more than welome to use this theme on your MAL */
+/*                                                       */
+/*********************************************************/
+
+.list-container .status-menu-container .search-container {
+	position: fixed;
+	top: 21px;
+	right: 82px;
+	z-index: 2;
+}
+
+.list-container .status-menu-container .search-container #search-button {
+	margin: 0;
+	background: var(--search) var(--color);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+}
+
+.list-container .status-menu-container .search-container #search-box {
+	width: 0;
+	height: 40px;
+	margin: 0;
+	opacity: 0;
+}
+
+.list-container .status-menu-container .search-container #search-box.open {
+	width: 148px;
+	opacity: 1;
+	box-shadow: 0 0 2px 1px var(--color);
+}

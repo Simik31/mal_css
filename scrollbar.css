@@ -1,0 +1,23 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/* You're more than welome to use this theme on your MAL */
+/*                                                       */
+/*********************************************************/
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--color);
+	border: 4px solid var(--bg-color);
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	border: 2px solid var(--bg-color);
+}

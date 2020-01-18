@@ -1,0 +1,48 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/* You're more than welome to use this theme on your MAL */
+/*                                                       */
+/*********************************************************/
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume {
+	border-left:1px solid var(--text-color)!important;
+	border-top: 1px solid var(--text-color);
+	position: absolute;
+	right: -22px;
+	top: -1px;
+	padding: 5px 5px 5px 5px;
+	background-color: var(--color);
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode:hover,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter:hover,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume:hover {
+	color: var(--color) !important;
+	background-color: var(--text-color);
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode .fa,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume .fa {
+	text-shadow: 0 0 3px #000;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter {
+    position: absolute;
+    top: -1px;
+    padding: 7px 9px 7px 7px;
+    background-color: var(--color);
+}
+
+ .list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume {
+    position: absolute;
+    right: 0;
+    top: -1px;
+    padding: 8px 9px 8px 8px;
+    background-color: var(--color);
+}

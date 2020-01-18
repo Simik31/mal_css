@@ -1,0 +1,38 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/* You're more than welome to use this theme on your MAL */
+/*                                                       */
+/*********************************************************/
+ 
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress:before {
+	content: "Ep: ";
+	color: var(--text-color);
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress {
+	color: var(--text-color);
+	position: absolute;
+	top: 230px;
+	padding: 0 15px;
+	background-color: var(--color);
+	border-top: 1px solid var(--text-color);
+	opacity: 0;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress div {
+	display: inline-block;
+}
+
+.list-container .list-unit .list-table .list-item:hover .list-table-data .data.progress {
+	opacity: 1;
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress a:hover,
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter a:hover,
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume a:hover {
+	color: var(--color) !important;
+	background-color: var(--text-color);
+}

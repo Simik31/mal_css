@@ -1,0 +1,56 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/* You're more than welome to use this theme on your MAL */
+/*                                                       */
+/*********************************************************/
+
+.list-menu-float {
+    text-align:left;
+    position:fixed;
+    top: 495px;
+    left:43px;
+}
+
+ .list-menu-float .icon-menu,.list-menu-float .icon-menu:not(.profile):hover {
+    color:var(--text-color);
+    height:30px;
+    width:30px;
+    box-sizing:border-box;
+    text-align:center;
+    padding:8px 0;
+}
+
+.list-menu-float .icon-menu.anime-list::before {
+    content:"";
+}
+
+ .list-menu-float .icon-menu.manga-list::before {
+    content:"";
+}
+
+.list-menu-float:hover .icon-menu.anime-list,
+.list-menu-float:hover .icon-menu.manga-list,
+.list-menu-float:hover .icon-menu .text {
+    color:var(--color);
+}
+
+.list-menu-float .icon-menu .text {
+    margin-top:-15px;
+    margin-left: -40px;
+    color:var(--text-color);
+    text-align: center;
+    padding:10px 0 0;
+    width:100px!important;
+    opacity:1;
+}
+
+.list-menu-float .icon-menu.anime-list {
+	display: var(--show-anime);
+}
+
+.list-menu-float .icon-menu.manga-list {
+	display: var(--show-manga);
+}

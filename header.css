@@ -1,0 +1,20 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/* You're more than welome to use this theme on your MAL */
+/*                                                       */
+/*********************************************************/
+
+.header .header-title {
+	position: fixed;
+	top: 21px;
+	left: 21px;
+	background-image: var(--mal-logo);
+	background-size: 180px auto;
+	display: block;
+	width: 180px;
+	height: 30px;
+	overflow: hidden;
+}

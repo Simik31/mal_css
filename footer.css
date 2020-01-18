@@ -1,0 +1,19 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/* You're more than welome to use this theme on your MAL */
+/*                                                       */
+/*********************************************************/
+
+.list-unit::after {
+	content: "MyAnimeList.net is a property of MyAnimeList, LLC. ©2020 All Rights Reserved. \a CSS made by Simik31.";
+	position: absolute;
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+	color: var(--color);
+	white-space: pre;
+  	text-shadow: 0 0 5px #000;
+}
