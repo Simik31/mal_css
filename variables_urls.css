@@ -3,8 +3,6 @@
 /*                    Made by Simik31                    */
 /*      https://www.myanimelist.net/profile/simik31      */
 /*                                                       */
-/* You're more than welome to use this theme on your MAL */
-/*                                                       */
 /*********************************************************/
 
 :root{
@@ -18,13 +16,15 @@
 	--all:#8B4513;
 	
 	--background-image: url(https://i.imgur.com/E2IYQka.png);
-	--font-bnt: url("https://static.playoverwatch.com/fonts/big-noodle-too-oblique-1eed6dbdd0.woff");
 	--mal-logo: url(https://i.imgur.com/4ADYYT2.png);
 	--search: url(https://i.imgur.com/3j2ThUg.png);
 }
 
 .ownlist {
-  background-image: var(--background-image) !important;
+	background-image: var(--background-image) !important;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;	
 }
 
 [data-query*="status\":1"] {
@@ -58,11 +58,21 @@
 }
 
 [data-work*="anime"] {
-  --show-anime: none;
-  --show-manga: "";
+	--show-anime: none;
+	--show-manga: "";
+	
+	--rx-cover-bottom: -382px;
+	--rx-cover-height: 382px;
+	--status-top-hover: 383px;
+	--status-top: 354px;
 }
 
 [data-work*="manga"] {
-  --show-anime: "";
-  --show-manga: none;
+	--show-anime: "";
+	--show-manga: none;
+	
+	--rx-cover-bottom: -410px;
+	--rx-cover-height: 410px;
+	--status-top-hover: 410px;
+	--status-top: 383px;
 }
