@@ -3,8 +3,6 @@
 /*                    Made by Simik31                    */
 /*      https://www.myanimelist.net/profile/simik31      */
 /*                                                       */
-/* You're more than welome to use this theme on your MAL */
-/*                                                       */
 /*********************************************************/
 
 @font-face {
@@ -36,12 +34,12 @@ a[href="/login.php"],
 }
 
  .list-container .list-unit .list-table .list-item .list-table-data .data.score:before {
-    font: 36px / 1 FontAwesome;
+	font: 36px / 1 FontAwesome;
 }
 
 .list-menu-float .icon-menu::before,
 .List_LightBox::before {
-  font: 14px / 1 FontAwesome;
+	font: 14px / 1 FontAwesome;
 }
 
 .list-unit::after {
@@ -51,4 +49,3 @@ a[href="/login.php"],
 #status-menu .status-button {
 	font-size: 24px !important;
 }
-
