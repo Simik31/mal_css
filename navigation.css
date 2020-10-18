@@ -3,8 +3,6 @@
 /*                    Made by Simik31                    */
 /*      https://www.myanimelist.net/profile/simik31      */
 /*                                                       */
-/* You're more than welome to use this theme on your MAL */
-/*                                                       */
 /*********************************************************/
 
 #status-menu .status-button.on {
@@ -17,7 +15,7 @@
 	width: 150px;
 	color: var(--text-color);
 	line-height: 30px;
-	padding: 12px 15px;
+	padding: 7px 10px;
   	text-shadow: 0 0 5px #000;
 }
 
@@ -27,24 +25,24 @@
 
 #status-menu .status-button.watching,
 #status-menu .status-button.reading {
-	top: 204px;
+	top: 194px;
 }
 
 #status-menu .status-button.completed {
-	top: 258px;
+	top: 238px;
 }
 
 #status-menu .status-button.dropped {
-	top: 312px;
+	top: 282px;
 }
 
 #status-menu .status-button.onhold {
-	top: 366px;
+	top: 326px;
 }
 
 #status-menu .status-button.plantowatch,
 #status-menu .status-button.plantoread {
-	top: 420px;
+	top: 370px;
 }
 
 #status-menu .status-button.all_anime:hover {
