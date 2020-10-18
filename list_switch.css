@@ -3,15 +3,17 @@
 /*                    Made by Simik31                    */
 /*      https://www.myanimelist.net/profile/simik31      */
 /*                                                       */
-/* You're more than welome to use this theme on your MAL */
-/*                                                       */
 /*********************************************************/
 
 .list-menu-float {
     text-align:left;
     position:fixed;
-    top: 495px;
-    left:43px;
+    top: 434px;
+    left: 27px;
+}
+
+.list-menu-float .text {
+    font-size: 24px !important;
 }
 
  .list-menu-float .icon-menu,.list-menu-float .icon-menu:not(.profile):hover {
@@ -31,9 +33,8 @@
     content:"";
 }
 
-.list-menu-float:hover .icon-menu.anime-list,
-.list-menu-float:hover .icon-menu.manga-list,
-.list-menu-float:hover .icon-menu .text {
+.list-menu-float .icon-menu.anime-list .text:hover,
+.list-menu-float .icon-menu.manga-list .text:hover {
     color:var(--color);
 }
 
