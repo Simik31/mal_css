@@ -1,3 +1,14 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/*********************************************************/
+
+.data {
+	padding: 0 !important;
+}
+
 .status-menu-container.fixed + div.list-block {
 	margin-top: 0 !important;
 }
@@ -14,13 +25,15 @@
 	border: none;
 }
  
+#footer-block,
 .list-container .status-menu-container,
 .list-container, .list-container .list-unit,
 .list-menu-float .icon-menu,.list-menu-float .icon-menu:not(.profile):hover {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 
 .list-container .status-menu-container .search-container #search-button,
+#advanced-options-button,
 .list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .edit a::before,
 .list-container .list-unit .list-table .list-item {
 	border-radius:6px;
