@@ -14,7 +14,7 @@
 
 .list-container .status-menu-container .search-container #search-button {
 	margin: 0;
-	background: var(--image-background) var(--color-current);
+	background: var(--image-search) var(--color-current);
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 40px;
