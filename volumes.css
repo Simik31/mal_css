@@ -3,30 +3,12 @@
 /*                    Made by Simik31                    */
 /*      https://www.myanimelist.net/profile/simik31      */
 /*                                                       */
-/* You're more than welome to use this theme on your MAL */
-/*                                                       */
 /*********************************************************/
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume:before {
     content: "Volumes: ";
-	color: var(--text-color);
 }
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.volume {
-    top: 265px;
-    border-top: 1px solid var(--text-color);
-    padding: 3px 45px 3px 5px;
-    background-color: var(--color);
-	color: var(--text-color);
-    opacity: 0;
-}
-
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume div {
-    display: inline-block;
-}
-
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.volume {
-    display: block;
-    margin:0;
-    opacity: 1;
+    top: 260px;
 }

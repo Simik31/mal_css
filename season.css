@@ -3,8 +3,6 @@
 /*                    Made by Simik31                    */
 /*      https://www.myanimelist.net/profile/simik31      */
 /*                                                       */
-/* You're more than welome to use this theme on your MAL */
-/*                                                       */
 /*********************************************************/
 
 .list-container .list-unit .list-table .list-item .list-table-data .data.season {
@@ -13,14 +11,11 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 25px;
-	background-color: var(--color);
+    height: 27px;
+    z-index: 2;
+    background-color: var(--color-current);
 }
 
 .list-table .list-table-data .data a {
-	color: var(--text-color);
-}
-
- .list-container .list-unit .list-table .list-item:hover .list-table-data .data.season {
-	bottom: -25px;
+    color: var(--color-text) !important;
 }

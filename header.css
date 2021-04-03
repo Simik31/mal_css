@@ -9,7 +9,7 @@
 	position: fixed;
 	top: 21px;
 	left: 21px;
-	background-image: var(--mal-logo);
+	background-image: var(--image-mal-logo);
 	background-size: 180px auto;
 	display: block;
 	width: 180px;

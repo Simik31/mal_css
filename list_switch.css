@@ -6,18 +6,14 @@
 /*********************************************************/
 
 .list-menu-float {
-    text-align:left;
-    position:fixed;
+    text-align: left;
+    position: fixed;
     top: 434px;
     left: 27px;
 }
 
-.list-menu-float .text {
-    font-size: 24px !important;
-}
-
- .list-menu-float .icon-menu,.list-menu-float .icon-menu:not(.profile):hover {
-    color:var(--text-color);
+.list-menu-float .icon-menu,.list-menu-float .icon-menu:not(.profile):hover {
+    color:var(--color-text);
     height:30px;
     width:30px;
     box-sizing:border-box;
@@ -29,19 +25,20 @@
     content:"";
 }
 
- .list-menu-float .icon-menu.manga-list::before {
+.list-menu-float .icon-menu.manga-list::before {
     content:"";
 }
 
-.list-menu-float .icon-menu.anime-list .text:hover,
-.list-menu-float .icon-menu.manga-list .text:hover {
-    color:var(--color);
-}
+    .list-menu-float:hover .icon-menu.anime-list,
+    .list-menu-float:hover .icon-menu.manga-list,
+    .list-menu-float:hover .icon-menu .text {
+        color: var(--color-current);
+    }
 
 .list-menu-float .icon-menu .text {
     margin-top:-15px;
     margin-left: -40px;
-    color:var(--text-color);
+    color:var(--color-text);
     text-align: center;
     padding:10px 0 0;
     width:100px!important;
@@ -49,9 +46,9 @@
 }
 
 .list-menu-float .icon-menu.anime-list {
-	display: var(--show-anime);
+    display: var(--bool-show-anime);
 }
 
 .list-menu-float .icon-menu.manga-list {
-	display: var(--show-manga);
+    display: var(--bool-show-manga);
 }

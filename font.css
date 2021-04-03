@@ -5,9 +5,10 @@
 /*                                                       */
 /*********************************************************/
 
+
 @font-face {
 	font-family: "BigNoodleToo";
-	src: url(https://static.playoverwatch.com/fonts/big-noodle-too-oblique-1eed6dbdd0.woff) format("woff");
+	src: url(https://cdn.jsdelivr.net/gh/Simik31/mal_css/big_noodle_titling.woff) format("woff");
 }
 
 * {
@@ -18,22 +19,26 @@
 
 a[href="/login.php"],
 .header-info a[href*="/history/"],
-.header-menu.other,.list-menu-float,
+.header-menu.other,
+.list-menu-float,
 .list-table .list-table-data .data.tags,
 .list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more,
 .list-menu-float .icon-menu.setting .text,
 .list-container .status-menu-container .search-container #search-button,
 .header .header-title,
 .List_LightBox,
-.more a, .list-container .list-unit .list-table .list-item span a[href*="tag=Rx"] {
-	font-size:0!important;
+.more a,
+.edit,
+#advanced-options-button,
+.list-container .list-unit .list-table .list-item span a[href*="tag=Rx"] {
+	font-size: 0 !important;
 }
 
 .fa {
 	font: 20px / 1 FontAwesome !important;
 }
 
- .list-container .list-unit .list-table .list-item .list-table-data .data.score:before {
+.list-container .list-unit .list-table .list-item .list-table-data .data.score:before {
 	font: 36px / 1 FontAwesome;
 }
 

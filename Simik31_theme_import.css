@@ -1,33 +1,33 @@
-/*********************************************************/
-/*                                                       */
-/*                    Made by Simik31                    */
-/*      https://www.myanimelist.net/profile/simik31      */
-/*                                                       */
-/* You're more than welome to use this theme on your MAL */
-/*                                                       */
-/*********************************************************/
+     /***********************************************/
+    /*                                             */
+   /*              Made by Simik31                */
+  /* https://www.myanimelist.net/profile/simik31 */
+ /*                                             */
+/***********************************************/
 
-@\import "font.css";
-@\import "root.css";
-@\import "base.css";
-@\import "header.css";
-@\import "navigation.css";
-@\import "list_switch.css";
-@\import "profile.css";
-@\import "display_none.css";
-@\import "scrollbar.css";
-@\import "search.css";
-@\import "stats.css";
-@\import "windows.css";
-@\import "edit.css";
-@\import "title.css";
-@\import "episodes.css";
-@\import "chapters.css";
-@\import "volumes.css";
-@\import "add.css";
-@\import "score.css";
-@\import "status.css";
-@\import "season.css";
-@\import "footer.css";
-@\import "rx.css";
-@\import "transitions.css";
+@import url("https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter");
+
+@import "root.css";
+@import "font.css";
+@import "transitions.css";
+@import "base.css";
+@import "filter.css";
+@import "header.css";
+@import "navigation.css";
+@import "list_switch.css";
+@import "profile.css";
+@import "display_none.css";
+@import "scrollbar.css";
+@import "search.css";
+@import "stats.css";
+@import "windows.css";
+@import "edit.css";
+@import "title.css";
+@import "episodes.css";
+@import "chapters.css";
+@import "volumes.css";
+@import "add.css";
+@import "score.css";
+@import "status.css";
+@import "season.css";
+@import "rx.css";

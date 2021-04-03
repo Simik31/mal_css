@@ -6,17 +6,17 @@
 /*********************************************************/
 
 #status-menu .status-button.on {
-	color: var(--color);
+	color: var(--color-current);
 }
 
 #status-menu .status-button {
 	position: fixed;
 	left: 0;
 	width: 150px;
-	color: var(--text-color);
+	color: var(--color-text);
 	line-height: 30px;
 	padding: 7px 10px;
-  	text-shadow: 0 0 5px #000;
+	text-shadow: 0 0 5px #000;
 }
 
 #status-menu .status-button.all_anime {
@@ -33,7 +33,7 @@
 }
 
 #status-menu .status-button.dropped {
-	top: 282px;
+	top: 382px;
 }
 
 #status-menu .status-button.onhold {
@@ -46,27 +46,27 @@
 }
 
 #status-menu .status-button.all_anime:hover {
-	color: var(--all);
+	color: var(--color-all);
 }
 
 #status-menu .status-button.watching:hover,
 #status-menu .status-button.reading:hover {
-	color: var(--watching);
+	color: var(--color-watching);
 }
 
 #status-menu .status-button.completed:hover {
-	color: var(--completed);
+	color: var(--color-completed);
 }
 
 #status-menu .status-button.dropped:hover {
-	color: var(--dropped);
+	color: var(--color-dropped);
 }
 
 #status-menu .status-button.onhold:hover {
-	color: var(--onhold);
+	color: var(--color-onhold);
 }
 
-#status-menu .status-button.plantowatch:hover, 
+#status-menu .status-button.plantowatch:hover,
 #status-menu .status-button.plantoread:hover {
-	color: var(--plan);
+	color: var(--color-planto);
 }

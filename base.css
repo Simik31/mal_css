@@ -5,6 +5,17 @@
 /*                                                       */
 /*********************************************************/
 
+.ownlist {
+	background-image: var(--image-background) !important;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+}
+
+.status-menu-container.fixed + div.list-block {
+	margin-top: 16px !important;
+}
+
 .data {
 	padding: 0 !important;
 }
@@ -13,18 +24,21 @@
 	margin-top: 0 !important;
 }
 
+.list-unit .list-status-title,
 .list-container .status-menu-container {
-	height: 0;
+	height: 0 !important;
 }
 
-.list-container, .list-unit {
+.list-container,
+.list-unit {
 	width: 1024px;
 }
 
-.list-table .list-table-data .data, .list-container {
+.list-table .list-table-data .data,
+.list-container {
 	border: none;
 }
- 
+
 #footer-block,
 .list-container .status-menu-container,
 .list-container, .list-container .list-unit,
@@ -33,7 +47,6 @@
 }
 
 .list-container .status-menu-container .search-container #search-button,
-#advanced-options-button,
 .list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .edit a::before,
 .list-container .list-unit .list-table .list-item {
 	border-radius:6px;

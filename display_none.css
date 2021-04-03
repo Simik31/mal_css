@@ -9,7 +9,7 @@
 .data:not(.image):not(.title):not(.score):not(.progress):not(.season):not(.tags):not(.chapter):not(.volume),
 .data.title .icon-watch,
 .data.title .rewatching,
-.list-table-header, 
+.list-table-header,
 .qc-cmp2-container,
 #show-stats-button,
 .list-menu-float .icon-menu:not(.manga-list):not(.anime-list):not(.profile),

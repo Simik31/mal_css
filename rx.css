@@ -3,21 +3,19 @@
 /*                    Made by Simik31                    */
 /*      https://www.myanimelist.net/profile/simik31      */
 /*                                                       */
-/* You're more than welome to use this theme on your MAL */
-/*                                                       */
 /*********************************************************/
 
 .list-container .list-unit .list-table .list-item span a[href*="tag=Rx"] {
 	position: absolute;
-	top: 0;
+	bottom: var(--bottom-image-rx-cover);
 	width: 242px;
-	height: 410px;
-	background: var(--rx-cover) #191919f0;
-	background-repeat:no-repeat;
-	background-position:center;
-	font-size: 0 !important;
+	height: var(--height-image-rx-cover);
+	background: var(--image-rx-cover) #191919f5;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .list-container .list-unit .list-table .list-item:hover span a[href*="tag=Rx"] {
 	height: 0;
+	opacity: 0;
 }

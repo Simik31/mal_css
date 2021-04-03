@@ -3,34 +3,22 @@
 /*                    Made by Simik31                    */
 /*      https://www.myanimelist.net/profile/simik31      */
 /*                                                       */
-/* You're more than welome to use this theme on your MAL */
-/*                                                       */
 /*********************************************************/
 
-[data-work*="anime"] .list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status {
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status {
     position: absolute;
-    z-index:1;
-    left: 0;
-    top: 346px;
-    width:242px;
-    border-bottom: 1px solid var(--text-color);
-    background-color: var(--color);
-    color: var(--text-color);
     text-align: center;
-}
-
-[data-work*="manga"] .list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status {
-    position: absolute;
-    z-index:1;
+    top: var(--status-top);
     left: 0;
-    top: 380px;
-    width:242px;
-    border-bottom: 1px solid var(--text-color);
-    background-color: var(--color);
-    color: var(--text-color);
-    text-align: center;
+    width: 242px;
+    height: 28px;
+    z-index: 1;
+    border-bottom: 1px solid var(--color-text);
+    background-color: var(--color-current);
+    color: var(--color-text);
 }
 
 .list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .content-status {
-	top: 380px;
+    top: var(--status-top-hover);
+    opacity: 0;
 }

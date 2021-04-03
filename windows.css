@@ -3,8 +3,6 @@
 /*                    Made by Simik31                    */
 /*      https://www.myanimelist.net/profile/simik31      */
 /*                                                       */
-/* You're more than welome to use this theme on your MAL */
-/*                                                       */
 /*********************************************************/
 
 .list-container .list-unit .list-table .list-item {
@@ -12,7 +10,7 @@
 	display: inline-block;
 	width: 241px;
 	height: 410px;
-	border: 2px solid var(--color);
+	border: 2px solid var(--color-current);
 	margin: 5px;
 	overflow: hidden;
 }
