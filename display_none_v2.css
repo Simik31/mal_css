@@ -1,0 +1,24 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/*********************************************************/
+
+.status-button:after,
+.data:not(.image):not(.title):not(.score):not(.progress):not(.season):not(.tags):not(.chapter):not(.volume),
+.data.title .icon-watch,
+.data.title .rewatching,
+.list-table-header,
+.qc-cmp2-container,
+#show-stats-button,
+.list-menu-float .icon-menu:not(.manga-list):not(.anime-list):not(.profile),
+.list-menu-float .icon-menu::before,
+.list-menu-float .icon-menu .icon,
+.fa.fa-search,
+.header-menu,
+.rereading,
+.list-table tbody:first-child,
+.list-unit .list-status-title .text {
+	display: none !important;
+}

@@ -1,0 +1,21 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/*********************************************************/
+
+.list-container .list-unit .list-table .list-item span a[href*="tag=Rx"] {
+	position: absolute;
+	bottom: var(--bottom-image-rx-cover);
+	width: 242px;
+	height: var(--height-image-rx-cover);
+	background: var(--image-rx-cover) #191919f5;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.list-container .list-unit .list-table .list-item:hover span a[href*="tag=Rx"] {
+	height: 0;
+	opacity: 0;
+}

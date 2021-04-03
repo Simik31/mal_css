@@ -1,0 +1,14 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/*********************************************************/
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume:before {
+    content: "Volumes: ";
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume {
+    top: 260px;
+}

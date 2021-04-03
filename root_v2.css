@@ -1,0 +1,66 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/*********************************************************/
+
+:root {
+	--color-text: #fff;
+	--color-background: #3c3c3c;
+	--color-watching: #2db039;
+	--color-completed: #0080ff;
+	--color-onhold: #f9d457;
+	--color-dropped: #a12f31;
+	--color-planto: #c3c3c3;
+	--color-all: #8B4513;
+	--image-background: url(https://i.imgur.com/E2IYQka.png);
+	--image-mal-logo: url(https://i.imgur.com/4ADYYT2.png);
+	--image-search: url(https://i.imgur.com/3j2ThUg.png);
+	--bottom-image-rx-cover: -380px;
+	--height-image-rx-cover: 410px;
+}
+
+[data-query*="status\":1"] {
+	--color-current: var(--color-watching);
+	--image-rx-cover: url(https://i.imgur.com/paPYdFg.png);
+}
+
+[data-query*="status\":2"] {
+	--color-current: var(--color-completed);
+	--image-rx-cover: url(https://i.imgur.com/Iukcs0H.png);
+}
+
+[data-query*="status\":3"] {
+	--color-current: var(--color-onhold);
+	--image-rx-cover: url(https://i.imgur.com/OQOtXG6.png);
+}
+
+[data-query*="status\":4"] {
+	--color-current: var(--color-dropped);
+	--image-rx-cover: url(https://i.imgur.com/aF1raIZ.png);
+}
+
+[data-query*="status\":6"] {
+	--color-current: var(--color-planto);
+	--image-rx-cover: url(https://i.imgur.com/tcEiKZB.png);
+}
+
+[data-query*="status\":7"] {
+	--color-current: var(--color-all);
+	--image-rx-cover: url(https://i.imgur.com/JD0uS66.png);
+}
+
+[data-work*="anime"] {
+	--bool-show-anime: none;
+	--bool-show-manga: "";
+	--status-top-hover: 383px;
+	--status-top: 354px;
+}
+
+[data-work*="manga"] {
+	--bool-show-anime: "";
+	--bool-show-manga: none;
+	--status-top-hover: 410px;
+	--status-top: 383px;
+}

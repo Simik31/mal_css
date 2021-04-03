@@ -1,0 +1,21 @@
+/*********************************************************/
+/*                                                       */
+/*                    Made by Simik31                    */
+/*      https://www.myanimelist.net/profile/simik31      */
+/*                                                       */
+/*********************************************************/
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.season {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 27px;
+    z-index: 2;
+    background-color: var(--color-current);
+}
+
+.list-table .list-table-data .data a {
+    color: var(--color-text) !important;
+}
