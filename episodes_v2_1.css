@@ -1,0 +1,15 @@
+     /***********************************************/
+    /*                                             */
+   /*              Made by Simik31                */
+  /* https://www.myanimelist.net/profile/simik31 */
+ /*                                             */
+/***********************************************/
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress:before {
+	content: "Ep: ";
+}
+
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress {
+	top: 230px;
+	padding: 0 10px 0 5px !important;
+}
