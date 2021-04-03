@@ -1,0 +1,33 @@
+     /***********************************************/
+    /*                                             */
+   /*              Made by Simik31                */
+  /* https://www.myanimelist.net/profile/simik31 */
+ /*                                             */
+/***********************************************/
+
+@import url("https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter");
+
+@import "root_v2.css";
+@import "font_v2.css";
+@import "transitions_v2.css";
+@import "base_v2.css";
+@import "filter_v2.css";
+@import "header_v2.css";
+@import "navigation_v2.css";
+@import "list_switch_v2.css";
+@import "profile_v2.css";
+@import "display_none_v2.css";
+@import "scrollbar_v2.css";
+@import "search_v2.css";
+@import "stats_v2.css";
+@import "windows_v2.css";
+@import "edit_v2.css";
+@import "title_v2.css";
+@import "episodes_v2.css";
+@import "chapters_v2.css";
+@import "volumes_v2.css";
+@import "add_v2.css";
+@import "score_v2.css";
+@import "status_v2.css";
+@import "season_v2.css";
+@import "rx_v2.css";
