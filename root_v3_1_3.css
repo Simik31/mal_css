@@ -25,12 +25,13 @@
 	--image-mal-logo: url(https://i.imgur.com/4ADYYT2.png);
 	--image-search: url(https://i.imgur.com/3j2ThUg.png);
 	
-	--image-rx-watching: url(https://i.imgur.com/paPYdFg.png);
-	--image-rx-completed: url(https://i.imgur.com/Iukcs0H.png);
-	--image-rx-onhold: url(https://i.imgur.com/OQOtXG6.png);
-	--image-rx-dropped: url(https://i.imgur.com/aF1raIZ.png);
-	--image-rx-planto: url(https://i.imgur.com/tcEiKZB.png);
-	--image-rx-all: url(https://i.imgur.com/JD0uS66.png);
+	/* URLS */
+	--url-rx-watching: "https://i.imgur.com/paPYdFg.png";
+	--url-rx-completed: "https://i.imgur.com/Iukcs0H.png";
+	--url-rx-onhold: "https://i.imgur.com/OQOtXG6.png";
+	--url-rx-dropped: "https://i.imgur.com/aF1raIZ.png";
+	--url-rx-planto: "https://i.imgur.com/tcEiKZB.png";
+	--url-rx-all: "https://i.imgur.com/JD0uS66.png";
 	
 	 /* SIZES */
 	--item-width: 241px;
@@ -42,32 +43,32 @@
 
 [data-query*="status\":1"] {
 	--color-current: var(--color-watching);
-	--image-rx-cover: var(--image-rx-watching);
+	--image-rx-cover: url(var(--url-rx-watching));
 }
 
 [data-query*="status\":2"] {
 	--color-current: var(--color-completed);
-	--image-rx-cover: var(--image-rx-completed);
+	--image-rx-cover:url(var(--url-rx-completed));
 }
 
 [data-query*="status\":3"] {
 	--color-current: var(--color-onhold);
-	--image-rx-cover: var(--image-rx-onhold);
+	--image-rx-cover: url(var(--url-rx-onhold));
 }
 
 [data-query*="status\":4"] {
 	--color-current: var(--color-dropped);
-	--image-rx-cover: var(--image-rx-dropped);
+	--image-rx-cover: url(var(--url-rx-dropped));
 }
 
 [data-query*="status\":6"] {
 	--color-current: var(--color-planto);
-	--image-rx-cover: var(--image-rx-planto);
+	--image-rx-cover: url(var(--url-rx-planto));
 }
 
 [data-query*="status\":7"] {
 	--color-current: var(--color-all);
-	--image-rx-cover: var(--image-rx-all);
+	--image-rx-cover: url(var(--url-rx-all));
 }
 
 [data-work*="anime"] {
