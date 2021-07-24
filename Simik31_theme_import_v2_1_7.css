@@ -5,9 +5,7 @@
  /*                                             */
 /***********************************************/
 
-@import url("https://malscraper.azurewebsites.net/covers/all/all/presets/dataimagelinkafter");
-
-@import "root_v2_1_2.css";
+@import "root_v2_1_7.css";
 @import "font_v2_1.css";
 @import "transitions_v2_1.css";
 @import "base_v2_1_2.css";
