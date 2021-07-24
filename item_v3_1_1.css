@@ -8,8 +8,8 @@
 .list-container .list-unit .list-table .list-item {
 	position: relative;
 	display: inline-block;
-	width: 241px;
-	height: 410px;
+	width: var(--item-width);
+	height: var(--item-height);
 	border: 2px solid var(--color-current);
 	margin: 5px;
 	overflow: hidden;
@@ -29,4 +29,15 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+.list-table .list-table-data .data.image a {
+	height: 100%;
+}
+
+.list-table .list-table-data .data.image .image {
+	width: auto;
+	height: 100%;
+	transform: translate(calc((100% - var(--item-width)) / -2), 0);
+	border:none;
 }
