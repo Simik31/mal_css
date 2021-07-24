@@ -14,7 +14,7 @@
 	--color-dropped: #a12f31;
 	--color-planto: #c3c3c3;
 	--color-all: #8B4513;
-	--image-background: url(https://i.imgur.com/E2IYQka.png);
+	--image-background: url(https://images5.alphacoders.com/495/495521.jpg);
 	--image-mal-logo: url(https://i.imgur.com/4ADYYT2.png);
 	--image-search: url(https://i.imgur.com/3j2ThUg.png);
 	--bottom-image-rx-cover: -390px;
@@ -52,6 +52,7 @@
 }
 
 [data-work*="anime"] {
+	@import url("https://malscraper.azurewebsites.net/covers/anime/Simik31/presets/dataimagelinkafter");
 	--bool-show-anime: none;
 	--bool-show-manga: "";
 	--status-top-hover: 383px;
@@ -59,6 +60,7 @@
 }
 
 [data-work*="manga"] {
+	@import url("https://malscraper.azurewebsites.net/covers/manga/Simik31/presets/dataimagelinkafter");
 	--bool-show-anime: "";
 	--bool-show-manga: none;
 	--status-top-hover: 410px;
