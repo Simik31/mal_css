@@ -33,6 +33,7 @@
 .list-container,
 .list-unit {
 	width: 1024px;
+	min-height: calc(100vh - 186px);
 }
 
 .list-table .list-table-data .data,
