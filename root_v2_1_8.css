@@ -52,7 +52,7 @@
 }
 
 [data-work*="anime"] {
-	@import url("https://malscraper.azurewebsites.net/covers/anime/Simik31/presets/dataimagelinkafter");
+	--covers-css = "https://malscraper.azurewebsites.net/covers/anime/Simik31/presets/dataimagelinkafter";
 	--bool-show-anime: none;
 	--bool-show-manga: "";
 	--status-top-hover: 383px;
@@ -60,9 +60,11 @@
 }
 
 [data-work*="manga"] {
-	@import url("https://malscraper.azurewebsites.net/covers/manga/Simik31/presets/dataimagelinkafter");
+	--covers-css = "https://malscraper.azurewebsites.net/covers/manga/Simik31/presets/dataimagelinkafter";
 	--bool-show-anime: "";
 	--bool-show-manga: none;
 	--status-top-hover: 410px;
 	--status-top: 383px;
 }
+
+@\import url(var(--covers-css))
