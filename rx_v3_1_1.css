@@ -8,7 +8,7 @@
 .list-container .list-unit .list-table .list-item span a[href*="tag=Rx"] {
 	position: absolute;
 	bottom: calc(var(--item-height) * -1);
-	width: var(--item--width);
+	width: var(--item-width);
 	height: var(--item-height);
 	background: var(--image-rx-cover) var(--color-rx-cover);
 	background-repeat: no-repeat;
