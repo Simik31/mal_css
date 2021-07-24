@@ -62,11 +62,12 @@
 }
 
 .list-table .list-table-data .data.image a {
-    height: 100%;
+	height: 100%;
 }
 
 .list-table .list-table-data .data.image .image {
-    width: auto;
-    height: 100%;
-    transform: translate(calc((100% - 241px) / -2), 0);
+	width: auto;
+	height: 100%;
+	transform: translate(calc((100% - 241px) / -2), 0);
+	border:none;
 }
