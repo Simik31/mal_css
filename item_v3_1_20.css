@@ -5,7 +5,7 @@
  /*                                             */
 /***********************************************/
 
-.list-container .list-unit .list-table .list-item {
+.list-item {
 	position: relative;
 	display: inline-block;
 	width: var(--item-width);
@@ -15,23 +15,12 @@
 	overflow: hidden;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data {
+.data {
 	position: absolute;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.image,
-.list-container .list-unit .list-table .list-item .list-table-data .data.image .link::after {
-	width: 100%;
-	height: 100%;
-	content: '';
-	background-size: cover;
-	background-position: center;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.list-table .list-table-data .data.image a {
+.data.image,
+.data.image a {
 	height: 100%;
 }
 
