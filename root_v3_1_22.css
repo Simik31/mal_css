@@ -32,7 +32,7 @@
 	--image-rx-planto: url(https://i.imgur.com/tcEiKZB.png);
 	--image-rx-all: url(https://i.imgur.com/JD0uS66.png);
 	
-	 /* SIZES */
+	 /* SIZES, POSITIONS */
 	--item-width: 241px;
 	--item-height: 410px;
 	
@@ -41,6 +41,13 @@
 	
 	--progress-layer-one: 230px;
 	--progress-layer-two: 260px;
+	
+	--position-button-all: 150px;
+	--position-button-watching: 194px;
+	--position-button-completed: 238px;
+	--position-button-dropped: 282px;
+	--position-button-onhold: 326px;
+	--position-button-planto: 370px;
 }
 
 [data-query*="status\":1"] {
