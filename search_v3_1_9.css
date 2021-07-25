@@ -34,3 +34,7 @@
 	border: 2px solid var(--color-current);
 	border-radius: 6px;
 }
+
+#search-box input {
+    box-sizing: unset;
+}
