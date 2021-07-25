@@ -5,11 +5,11 @@
  /*                                             */
 /***********************************************/
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress:before {
+.data.progress:before {
 	content: "Ep: ";
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress {
-	top: 230px;
+.data.progress {
+	top: var(--progress-layer-one);
 	padding: 0 10px 0 5px !important;
 }
