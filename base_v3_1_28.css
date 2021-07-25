@@ -10,7 +10,7 @@
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment: fixed;
-	min-width: 1350px;
+	min-width: 1450px;
 }
 
 .status-menu-container.fixed + div.list-block {
