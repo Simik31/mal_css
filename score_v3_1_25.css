@@ -5,12 +5,12 @@
  /*                                             */
 /***********************************************/
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.score {
+.data.score {
 	right: 13px;
 	top: 13px;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.score::before {
+.data.score::before {
 	display: inline-block;
 	position: absolute;
 	color: var(--color-current);
@@ -19,7 +19,7 @@
 	top: 0;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.score .link {
+.data.score .link {
 	top: 3px;
 	right: 0;
 	width: 36px;
@@ -28,7 +28,7 @@
 
 input[type='text'],
 select {
-	margin-right: 36px;
+	margin-top:36px;
 	background-color: var(--color-background);
 	color: var(--color-current) !important;
 }
