@@ -5,10 +5,10 @@
  /*                                             */
 /***********************************************/
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume:before {
+.data.volume:before {
     content: "Volumes: ";
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume {
-    top: 260px;
+.data.volume {
+    top: var(--progress-layer-two);
 }
