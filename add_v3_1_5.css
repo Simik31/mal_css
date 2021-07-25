@@ -1,0 +1,61 @@
+     /***********************************************/
+    /*                                             */
+   /*              Made by Simik31                */
+  /* https://www.myanimelist.net/profile/simik31 */
+ /*                                             */
+/***********************************************/
+
+.icon-add-episode,
+.icon-add-chapter,
+.icon-add-volume {
+    position: absolute;
+    right: -27px;
+    padding: 5px;
+    background-color: var(--color-current);
+}
+
+.data.progress .icon-add-episode:hover,
+.data.progress a:hover,
+.data.chapter .icon-add-chapter:hover,
+.data.chapter a:hover,
+.data.volume .icon-add-volume:hover,
+.data.volume a:hover,
+.data.title .link:hover,
+.edit a:hover::before {
+    color: var(--color-current) !important;
+    background-color: var(--color-text);
+}
+
+.data.progress:before,
+.data.chapter:before,
+.data.volume:before {
+    color: var(--color-text);
+}
+
+.data.chapter,
+.data.volume {
+    padding: 0 12px 0 5px !important;
+}
+
+.data.progress,
+.data.chapter,
+.data.volume {
+    position: absolute;
+    margin: 0;
+    background-color: var(--color-current);
+    color: var(--color-text);
+    opacity: 0;
+}
+
+.data.progress div,
+.data.chapter div,
+.data.volume div {
+    display: inline-block;
+}
+
+.list-item:hover .data.progress,
+.list-item:hover .data.chapter,
+.list-item:hover .data.volume {
+    display: block;
+    opacity: 1;
+}
