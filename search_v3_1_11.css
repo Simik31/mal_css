@@ -36,5 +36,5 @@
 }
 
 #search-box input {
-    box-sizing: unset;
+    box-sizing: unset !important;
 }
