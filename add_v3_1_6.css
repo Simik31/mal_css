@@ -5,12 +5,12 @@
  /*                                             */
 /***********************************************/
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode,
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter,
-.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume {
+.icon-add-episode,
+.icon-add-chapter,
+.icon-add-volume {
     position: absolute;
     right: -27px;
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     background-color: var(--color-current);
 }
 
