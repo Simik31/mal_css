@@ -38,6 +38,6 @@
 .list-table .list-table-data .data.image .image {
 	width: auto;
 	height: 100%;
-	transform: translate(calc((100% - var(--item-width)) / -2), 0);
+	transform: translateX(calc((100% - var(--item-width)) / -2));
 	border:none;
 }
