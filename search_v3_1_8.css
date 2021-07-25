@@ -31,5 +31,6 @@
 .list-container .status-menu-container .search-container #search-box.open {
 	width: 148px;
 	opacity: 1;
-	box-shadow: 0 0 2px 1px var(--color-current);
+	border: 2px solid var(--color-current);
+	border-radius: 6px;
 }
