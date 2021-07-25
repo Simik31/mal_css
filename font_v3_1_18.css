@@ -6,7 +6,7 @@
 /***********************************************/
 
 @font-face {
-	font-family: "BigNoodleToo";
+	font-family: BigNoodleToo;
 	src: url(https://cdn.jsdelivr.net/gh/Simik31/mal_css/big_noodle_titling.woff) format("woff");
 }
 
@@ -16,20 +16,13 @@
 	font-weight: normal !important;
 }
 
-a[href="/login.php"],
-.header-info a[href*="/history/"],
-.header-menu.other,
-.list-menu-float,
-.list-table .list-table-data .data.tags,
-.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more,
-.list-menu-float .icon-menu.setting .text,
-.list-container .status-menu-container .search-container #search-button,
-.header .header-title,
+.data.tags,
+.add-edit-more,
 .List_LightBox,
 .more a,
 .edit,
 #advanced-options-button,
-.list-container .list-unit .list-table .list-item span a[href*="tag=Rx"] {
+a[href*="tag=Rx"] {
 	font-size: 0 !important;
 }
 
@@ -37,11 +30,11 @@ a[href="/login.php"],
 	font: 20px / 1 FontAwesome !important;
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.score:before {
+.data.score:before {
 	font: 36px / 1 FontAwesome;
 }
 
-.list-menu-float .icon-menu::before,
+.icon-menu::before,
 .List_LightBox::before {
 	font: 14px / 1 FontAwesome;
 }
