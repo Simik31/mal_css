@@ -23,7 +23,7 @@
 .data.title .link:hover,
 .edit a:hover::before {
     color: var(--color-current) !important;
-    background-color: var(--color-text);
+    background-color: var(--color-text) !important;
 }
 
 .data.progress:before,
