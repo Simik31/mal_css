@@ -5,14 +5,14 @@
  /*                                             */
 /***********************************************/
 
-.list-container .status-menu-container .search-container {
+.search-container {
 	position: fixed;
 	top: 21px;
 	right: 143px;
 	z-index: 2;
 }
 
-.list-container .status-menu-container .search-container #search-button {
+#search-button {
 	margin: 0;
 	background: var(--image-search) var(--color-current);
 	background-position: center;
@@ -21,14 +21,14 @@
 	height: 40px;
 }
 
-.list-container .status-menu-container .search-container #search-box {
+#search-box {
 	width: 0;
 	height: 36px; /* +4px border = 40px totals */
 	margin: 0;
 	opacity: 0;
 }
 
-.list-container .status-menu-container .search-container #search-box.open {
+#search-box.open {
 	width: 148px;
 	opacity: 1;
 	border: 2px solid var(--color-current);
