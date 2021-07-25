@@ -1,0 +1,26 @@
+     /***********************************************/
+    /*                                             */
+   /*              Made by Simik31                */
+  /* https://www.myanimelist.net/profile/simik31 */
+ /*                                             */
+/***********************************************/
+
+.list-menu-float .icon-menu .text {
+    top: 254px;
+    margin-left: -40px;
+    color: var(--color-text);
+    width: 100px !important;
+    opacity: 1;
+}
+
+.list-menu-float .icon-menu .text:hover {
+    color: var(--color-current);
+}
+
+.list-menu-float .icon-menu.anime-list {
+    display: var(--bool-show-anime);
+}
+
+.list-menu-float .icon-menu.manga-list {
+    display: var(--bool-show-manga);
+}
