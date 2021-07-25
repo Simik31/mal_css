@@ -5,12 +5,12 @@
  /*                                             */
 /***********************************************/
 
-.list-container .list-unit .list-table .list-item:hover .list-table-data .data.title .add-edit-more .edit a::before {
+.edit a::before {
     content: "";
     position: absolute;
     display: block;
     padding: 5px;
-    margin: 13px 0 0 13px;
+    margin: 13px;
     z-index: 2;
     color: var(--color-text);
     background-color: var(--color-current);
