@@ -14,35 +14,33 @@
 	left: 0;
 	width: 150px;
 	color: var(--color-text);
-	line-height: 30px;
 	padding: 7px 10px;
-	text-shadow: 0 0 5px #000;
 }
 
-#status-menu .status-button.all_anime {
-	top: 150px;
+.all_anime {
+	top: var(--position-button-all);
 }
 
-#status-menu .status-button.watching,
-#status-menu .status-button.reading {
-	top: 194px;
+.watching,
+.reading {
+	top: var(--position-button-watching);
 }
 
-#status-menu .status-button.completed {
-	top: 238px;
+.completed {
+	top: var(--position-button-completed);
 }
 
-#status-menu .status-button.dropped {
-	top: 282px;
+.dropped {
+	top: var(--position-button-dropped);
 }
 
-#status-menu .status-button.onhold {
-	top: 326px;
+.onhold {
+	top: var(--position-button-onhold);
 }
 
-#status-menu .status-button.plantowatch,
-#status-menu .status-button.plantoread {
-	top: 370px;
+.plantowatch,
+.plantoread {
+	top: var(--position-button-planto);
 }
 
 #status-menu .status-button.all_anime:hover {
