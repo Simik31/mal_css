@@ -8,8 +8,6 @@
 .list-container .list-unit .list-stats {
 	position: absolute;
 	top: -45px;
-	left: 162px;
-	width: 700px;
 	background: var(--color-background);
 	border-radius: 20px;
 	display: block !important;
