@@ -5,7 +5,7 @@
  /*                                             */
 /***********************************************/
 
-.list-container .list-unit .list-table .list-item span a[href*="tag=Rx"] {
+a[href*="tag=Rx"] {
 	position: absolute;
 	bottom: calc(var(--item-height) * -1);
 	width: var(--item-width);
@@ -15,7 +15,7 @@
 	background-position: center;
 }
 
-.list-container .list-unit .list-table .list-item:hover span a[href*="tag=Rx"] {
+.list-item:hover a[href*="tag=Rx"] {
 	height: 0;
 	opacity: 0;
 }
