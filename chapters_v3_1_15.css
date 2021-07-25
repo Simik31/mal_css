@@ -5,10 +5,10 @@
  /*                                             */
 /***********************************************/
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter:before {
+.data.chapter:before {
     content: "Chapters: ";
 }
 
-.list-container .list-unit .list-table .list-item .list-table-data .data.chapter {
-    top: 230px;
+.data.chapter {
+    top: var(--progress-layer-one);
 }
