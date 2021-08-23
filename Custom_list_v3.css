@@ -417,12 +417,16 @@ a[href*="tag=Rx"] {
 .edit a::before {
     content: "";
     position: absolute;
-    display: block;
+    display: none;
     padding: 5px;
     margin: 13px;
     z-index: 2;
     color: var(--color-text);
     background-color: var(--color-current);
+}
+
+.list-item:hover .edit a::before {
+    display: block;
 }
 
 .data.title .link {
