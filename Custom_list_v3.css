@@ -565,7 +565,7 @@ select {
     z-index: 2;
     border-bottom: 1px solid var(--color-text);
     background-color: var(--color-current);
-    color: var(--color-text);
+    color: var(--color-text) !important;
 }
 
 .list-item:hover .content-status {
