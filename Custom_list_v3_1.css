@@ -113,7 +113,7 @@ a[href*="tag=Rx"] {
 	font-size: 0 !important;
 }
 
-.fa {
+.fa-solid {
 	font: 20px / 1 FontAwesome !important;
 }
 
@@ -415,7 +415,7 @@ a[href*="tag=Rx"] {
 }
 
 .edit a::before {
-    content: "";
+    content: "✎";
     position: absolute;
     display: none;
     padding: 5px;
@@ -536,7 +536,7 @@ a[href*="tag=Rx"] {
 	display: inline-block;
 	position: absolute;
 	color: var(--color-current);
-	content: "";
+	content: "❤";
 	right: 0;
 	top: 0;
 }
