@@ -114,7 +114,7 @@ a[href*="tag=Rx"] {
 }
 
 .fa-solid {
-	font: 20px / 1 FontAwesome !important;
+	font-family: 'Font Awesome 6 Pro' !important;
 }
 
 .data.score:before {
