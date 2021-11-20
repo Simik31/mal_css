@@ -118,7 +118,7 @@ a[href*="tag=Rx"] {
 }
 
 .data.score:before {
-	font: 36px / 1 FontAwesome;
+	font-size: 36px;
 }
 
 .icon-menu::before,
