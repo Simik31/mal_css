@@ -11,12 +11,19 @@
 }
 
 :root {
-	--color-watching: #2db039;
-	--color-completed: #0080ff;
-	--color-onhold: #f9d457;
-	--color-dropped: #a12f31;
-	--color-planto: #c3c3c3;
-	--color-all: #8B4513;
+	--color-watching: #011efe;
+	--color-completed: #021631;
+	--color-onhold: #ff00a9;
+	--color-dropped: #00ff00;
+	--color-planto: #eeeeee;
+	--color-all: #ff0000;
+	
+	--color-original-watching: #2db039;
+	--color-original-completed: #0080ff;
+	--color-original-onhold: #f9d457;
+	--color-original-dropped: #a12f31;
+	--color-original-planto: #c3c3c3;
+	--color-original-all: #8B4513;
 	
 	--color-text: #fff;
 	--color-background: #3c3c3c;
@@ -28,12 +35,7 @@
 	--image-mal-logo: url(https://i.imgur.com/4ADYYT2.png);
 	--image-search: url(https://i.imgur.com/3j2ThUg.png);
 	
-	--image-rx-watching: url(https://i.imgur.com/paPYdFg.png);
-	--image-rx-completed: url(https://i.imgur.com/Iukcs0H.png);
-	--image-rx-onhold: url(https://i.imgur.com/OQOtXG6.png);
-	--image-rx-dropped: url(https://i.imgur.com/aF1raIZ.png);
-	--image-rx-planto: url(https://i.imgur.com/tcEiKZB.png);
-	--image-rx-all: url(https://i.imgur.com/JD0uS66.png);
+	--image-rx-cover: url(https://i.imgur.com/tcEiKZB.png);
 	
 	--item-width: 241px;
 	--item-height: 410px;
@@ -55,32 +57,26 @@
 
 [data-query*="status\":1"] {
 	--color-current: var(--color-watching);
-	--image-rx-cover: var(--image-rx-watching);
 }
 
 [data-query*="status\":2"] {
 	--color-current: var(--color-completed);
-	--image-rx-cover: var(--image-rx-completed);
 }
 
 [data-query*="status\":3"] {
 	--color-current: var(--color-onhold);
-	--image-rx-cover: var(--image-rx-onhold);
 }
 
 [data-query*="status\":4"] {
 	--color-current: var(--color-dropped);
-	--image-rx-cover: var(--image-rx-dropped);
 }
 
 [data-query*="status\":6"] {
 	--color-current: var(--color-planto);
-	--image-rx-cover: var(--image-rx-planto);
 }
 
 [data-query*="status\":7"] {
 	--color-current: var(--color-all);
-	--image-rx-cover: var(--image-rx-all);
 }
 
 [data-work*="anime"] {
