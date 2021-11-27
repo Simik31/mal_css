@@ -173,7 +173,8 @@ a[href*="tag=Rx"] {
 .status-menu-container,
 .list-container,
 .list-unit,
-.icon-menu:not(.profile):hover {
+.icon-menu:not(.profile):hover,
+.list-table > tbody:nth-of-type(2n+1) {
 	background-color: transparent !important;
 }
 
