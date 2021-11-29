@@ -142,6 +142,7 @@ a[href*="tag=Rx"] {
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment: fixed;
+	background-size: cover;
 	min-width: 1450px;
 }
 
