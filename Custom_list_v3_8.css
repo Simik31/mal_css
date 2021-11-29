@@ -306,6 +306,10 @@ a[href*="tag=Rx"] {
 	border-radius: 6px;
 }
 
+.list-table {
+	text-align: center;
+}
+
 .status-button:after,
 .data:not(.image):not(.title):not(.score):not(.progress):not(.season):not(.tags):not(.chapter):not(.volume),
 .data.title .icon-watch,
