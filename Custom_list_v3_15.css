@@ -570,3 +570,7 @@ a[href*="tag=Rx"] {
 	height: 0;
 	opacity: 0;
 }
+
+.list-menu-float {
+	top: 0 !important;	
+}
