@@ -489,9 +489,8 @@ a[href*="tag=Rx"] {
 	position: absolute;
 }
 
-input[type='text'],
-select {
-	margin-top:36px;
+select { margin-right:36px }
+select, input[type='text'] {
 	background-color: var(--color-background);
 	color: var(--color-current) !important;
 }
@@ -518,13 +517,13 @@ select {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 27px;
+    height: var(--season-height);
     z-index: 2;
     background-color: var(--color-current);
 }
 
 .data a {
-    color: var(--color-text) !important;
+	color: var(--color-text) !important;
 }
 
 a[href*="tag=Rx"] {
