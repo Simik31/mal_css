@@ -46,37 +46,18 @@
 	--progress-layer-one: 230px;
 	--progress-layer-two: 260px;
 	
-	--position-button-all: 150px;
-	--position-button-watching: 194px;
-	--position-button-completed: 238px;
-	--position-button-dropped: 282px;
-	--position-button-onhold: 326px;
-	--position-button-planto: 370px;
+	--position-button-watching: 150px;
+	--position-button-completed: 194px;
+	--position-button-dropped: 238px;
+	--position-button-onhold: 282px;
+	--position-button-planto: 326px;
 }
 
-[data-query*="status\":1"] {
-	--color-current: var(--color-watching);
-}
-
-[data-query*="status\":2"] {
-	--color-current: var(--color-completed);
-}
-
-[data-query*="status\":3"] {
-	--color-current: var(--color-onhold);
-}
-
-[data-query*="status\":4"] {
-	--color-current: var(--color-dropped);
-}
-
-[data-query*="status\":6"] {
-	--color-current: var(--color-planto);
-}
-
-[data-query*="status\":7"] {
-	--color-current: var(--color-all);
-}
+[data-query*="status\":1"] { --color-current: var(--color-watching) }
+[data-query*="status\":2"] { --color-current: var(--color-completed) }
+[data-query*="status\":3"] { --color-current: var(--color-onhold) }
+[data-query*="status\":4"] { --color-current: var(--color-dropped) }
+[data-query*="status\":6"] { --color-current: var(--color-planto) }
 
 [data-work*="anime"] {
 	--bool-show-anime: none;
@@ -96,6 +77,7 @@
 	font-family: BigNoodleToo, impact, sans-serif !important;
 	font-size: 20px !important;
 	font-weight: normal !important;
+	transition: all 0.4s ease-in-out;
 }
 
 .data.tags,
@@ -127,13 +109,6 @@ a[href*="tag=Rx"] {
 
 #status-menu .status-button {
 	font-size: 24px !important;
-}
-
-* {
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
 }
 
 .ownlist {
@@ -225,10 +200,6 @@ a[href*="tag=Rx"] {
 	padding: 7px 10px;
 }
 
-.all_anime {
-	top: var(--position-button-all);
-}
-
 .watching,
 .reading {
 	top: var(--position-button-watching);
@@ -249,10 +220,6 @@ a[href*="tag=Rx"] {
 .plantowatch,
 .plantoread {
 	top: var(--position-button-planto);
-}
-
-#status-menu .status-button.all_anime:hover {
-	color: var(--color-all);
 }
 
 #status-menu .status-button.watching:hover,
@@ -325,7 +292,8 @@ a[href*="tag=Rx"] {
 .header-menu,
 .rereading,
 .list-table tbody:first-child,
-.list-unit .list-status-title .text {
+.list-unit .list-status-title .text,
+.all_anime {
 	display: none !important;
 }
 
