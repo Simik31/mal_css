@@ -39,13 +39,16 @@
 	--position-spacing: 44px;
 	--position-start: 106px;
 	
-	--progress-layer-one: 230px;
-	--progress-layer-two: 260px;
+	--title-height: 30px;
+	--title-padding: 4px;
 	
 	--item-width: calc(var(--container-width) / var(--columns) - var(--item-spacing) - 2 * var(--item-border));
 	--item-height: calc(var(--item-width) * 1.7);
 	
 	--title-position: calc(var(--item-height) * .5 - var(--season-height));
+	
+	--progress-layer-one: calc(var(--title-position) + 1 * var(--title-height) + 2 * var(--title-padding));
+	--progress-layer-two: calc(var(--title-position) + 2 * var(--title-height) + 2 * var(--title-padding));
 	
 	--status-layer-one: calc(var(--item-height) - var(--season-height));
 	--status-layer-two: calc(var(--status-layer-one) - var(--season-height) - var(--item-border));
