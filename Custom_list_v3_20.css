@@ -372,8 +372,9 @@ a[href*="tag=Rx"] {
 
 .data.title .link {
     position: absolute;
-    padding: 4px;
+    padding: var(--title-padding);
     opacity: 0;
+	height: var(--title-height);
     top: var(--title-position);
     color: var(--color-text);
     background-color: var(--color-current);
