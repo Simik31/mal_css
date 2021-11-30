@@ -36,6 +36,7 @@
 	
 	--item-spacing: 10px;
 	
+	--status-height: 28px;
 	--season-height: 27px;
 	
 	--position-spacing: 44px;
@@ -501,7 +502,7 @@ select, input[type='text'] {
     top: var(--status-top);
     left: 0;
     width: var(--item-width);
-    height: 28px;
+    height: var(--status-height);
     z-index: 2;
     border-bottom: calc(var(--border-width) / 2) solid var(--color-text);
     background-color: var(--color-current);
