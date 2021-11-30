@@ -246,7 +246,7 @@ a[href*="tag=Rx"] {
 }
 
 .list-menu-float .icon-menu .text {
-    top: var(--position-switch-list)
+    top: var(--position-switch-list);
     margin-left: -40px;
     color: var(--color-text);
     width: 100px !important;
