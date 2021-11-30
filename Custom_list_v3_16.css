@@ -34,24 +34,27 @@
 	--item-border: 2px;
 	--item-spacing: 10px;
 	
-	--item-width: calc(var(--container-width) / var(--columns) - var(--item-spacing) - 2 * var(--item-border));
-	--item-height: calc(var(--item-width) * 1.7);
-	
 	--season-height: 27px;
 	
-	--status-layer-one: calc(var(--item-height) - var(--season-height));
-	--status-layer-two: calc(var(--status-layer-one) - var(--season-height) - var(--item-border));
+	--position-spacing: 44px;
+	--position-start: 106px;
 	
 	--title-position: 192px;
 	--progress-layer-one: 230px;
 	--progress-layer-two: 260px;
 	
-	--position-button-watching: 150px;
-	--position-button-completed: 194px;
-	--position-button-dropped: 238px;
-	--position-button-onhold: 282px;
-	--position-button-planto: 326px;
-	--position-switch-list: 254px;
+	--item-width: calc(var(--container-width) / var(--columns) - var(--item-spacing) - 2 * var(--item-border));
+	--item-height: calc(var(--item-width) * 1.7);
+	
+	--status-layer-one: calc(var(--item-height) - var(--season-height));
+	--status-layer-two: calc(var(--status-layer-one) - var(--season-height) - var(--item-border));
+			
+	--position-button-watching: calc(var(--position-start) + var(--position-spacing) * 1);
+	--position-button-completed: calc(var(--position-start) + var(--position-spacing) * 2);
+	--position-button-dropped: calc(var(--position-start) + var(--position-spacing) * 3);
+	--position-button-onhold: calc(var(--position-start) + var(--position-spacing) * 4);
+	--position-button-planto: calc(var(--position-start) + var(--position-spacing) * 5);
+	--position-switch-list: calc(var(--position-start) + var(--position-spacing) * 7);
 }
 
 [data-query*="status\":1"] { --color-current: var(--color-watching) }
