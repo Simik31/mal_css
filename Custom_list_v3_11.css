@@ -19,7 +19,7 @@
 	--color-all: #ff0000;
 	
 	--color-text: #fff;
-	--color-background: #3c3c3c;	
+	--color-background: #3c3c3c;
 	--color-rx-cover: #000000f0;
 	
 	--image-background: url(https://images5.alphacoders.com/495/495521.jpg);
@@ -37,8 +37,10 @@
 	--item-width: calc(var(--container-width) / var(--columns) - var(--item-spacing) - 2 * var(--item-border));
 	--item-height: calc(var(--item-width) * 1.7);
 	
-	--status-layer-one: 383px;
-	--status-layer-two: 354px;
+	--season-height: 27px;
+	
+	--status-layer-one: calc(var(--item-height) - var(--season-height));
+	--status-layer-two: calc(var(--status-layer-one) - var(--season-height) - var(--item-border));
 	
 	--title-position: 192px;
 	--progress-layer-one: 230px;
