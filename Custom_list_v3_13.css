@@ -51,6 +51,7 @@
 	--position-button-dropped: 238px;
 	--position-button-onhold: 282px;
 	--position-button-planto: 326px;
+	--position-switch-list: 254px;
 }
 
 [data-query*="status\":1"] { --color-current: var(--color-watching) }
@@ -245,7 +246,7 @@ a[href*="tag=Rx"] {
 }
 
 .list-menu-float .icon-menu .text {
-    top: 254px;
+    top: var(--position-switch-list)
     margin-left: -40px;
     color: var(--color-text);
     width: 100px !important;
