@@ -7,13 +7,18 @@
 
 :root {
 	/* COLORS */
-	--color-watching: #2db039;
-	--color-completed: #0080ff;
-	--color-onhold: #f9d457;
-	--color-dropped: #a12f31;
-	--color-planto: #c3c3c3;
-	--color-all: #8B4513;
+	--color-anime-watching: #7c8695;
+	--color-anime-completed: #677a93;
+	--color-anime-onhold: #3a5271;
+	--color-anime-dropped: #253956;
+	--color-anime-planto: #202833;
 	
+	--color-manga-reading: #f2a207;
+	--color-manga-completed: #d09128;
+	--color-manga-onhold: #a95213;
+	--color-manga-dropped: #a33f05;
+	--color-manga-planto: #931806;
+		
 	--color-text: #fff;
 	--color-background: #3c3c3c;
 	
@@ -51,36 +56,6 @@
 	--position-button-planto: 370px;
 }
 
-[data-query*="status\":1"] {
-	--color-current: var(--color-watching);
-	--image-rx-cover: var(--image-rx-watching);
-}
-
-[data-query*="status\":2"] {
-	--color-current: var(--color-completed);
-	--image-rx-cover: var(--image-rx-completed);
-}
-
-[data-query*="status\":3"] {
-	--color-current: var(--color-onhold);
-	--image-rx-cover: var(--image-rx-onhold);
-}
-
-[data-query*="status\":4"] {
-	--color-current: var(--color-dropped);
-	--image-rx-cover: var(--image-rx-dropped);
-}
-
-[data-query*="status\":6"] {
-	--color-current: var(--color-planto);
-	--image-rx-cover: var(--image-rx-planto);
-}
-
-[data-query*="status\":7"] {
-	--color-current: var(--color-all);
-	--image-rx-cover: var(--image-rx-all);
-}
-
 [data-work*="anime"] {
 	--bool-show-anime: none;
 	--bool-show-manga: "";
@@ -88,9 +63,69 @@
 	--status-top: var(--status-layer-two);
 }
 
+[data-work*="anime"][data-query*="status\":1"] {
+	--color-current: var(--color-anime-watching);
+	--image-rx-cover: var(--image-rx-watching);
+}
+
+[data-work*="anime"][data-query*="status\":2"] {
+	--color-current: var(--color-anime-completed);
+	--image-rx-cover: var(--image-rx-completed);
+}
+
+[data-work*="anime"][data-query*="status\":3"] {
+	--color-current: var(--color-anime-onhold);
+	--image-rx-cover: var(--image-rx-onhold);
+}
+
+[data-work*="anime"][data-query*="status\":4"] {
+	--color-current: var(--color-anime-dropped);
+	--image-rx-cover: var(--image-rx-dropped);
+}
+
+[data-work*="anime"][data-query*="status\":6"] {
+	--color-current: var(--color-anime-planto);
+	--image-rx-cover: var(--image-rx-planto);
+}
+
+[data-work*="anime"][data-query*="status\":7"] {
+	--color-current: var(--color-all);
+	--image-rx-cover: var(--image-rx-all);
+}
+
 [data-work*="manga"] {
 	--bool-show-anime: "";
 	--bool-show-manga: none;
 	--status-top-hover: var(--item-height);
 	--status-top: var(--status-layer-one);
+}
+
+[data-work*="manga"][data-query*="status\":1"] {
+	--color-current: var(--color-manga-reading);
+	--image-rx-cover: var(--image-rx-watching);
+}
+
+[data-work*="manga"][data-query*="status\":2"] {
+	--color-current: var(--color-manga-completed);
+	--image-rx-cover: var(--image-rx-completed);
+}
+
+[data-work*="manga"][data-query*="status\":3"] {
+	--color-current: var(--color-manga-onhold);
+	--image-rx-cover: var(--image-rx-onhold);
+}
+
+[data-work*="manga"][data-query*="status\":4"] {
+	--color-current: var(--color-manga-dropped);
+	--image-rx-cover: var(--image-rx-dropped);
+}
+
+[data-work*="manga"][data-query*="status\":6"] {
+	--color-current: var(--color-manga-planto);
+	--image-rx-cover: var(--image-rx-planto);
+}
+
+[data-work*="manga"][data-query*="status\":7"] {
+	--color-current: var(--color-all);
+	--image-rx-cover: var(--image-rx-all);
 }
