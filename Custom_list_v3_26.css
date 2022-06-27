@@ -70,30 +70,36 @@
 }
 
 [data-work*="anime"] {
+    --color-watching: var(--color-anime-watching);
+    --color-completed: var(--color-anime-completed);
+    --color-onhold: var(--color-anime-onhold);
+    --color-dropped: var(--color-anime-dropped);
+    --color-planto: var(--color-anime-planto);
+
 	--bool-show-anime: none;
 	--bool-show-manga: "";
 	--status-top-hover: var(--status-layer-one);
 	--status-top: var(--status-layer-two);
 }
 
-[data-work*="anime"][data-query*="status\":1"] { --color-current: var(--color-anime-watching) }
-[data-work*="anime"][data-query*="status\":2"] { --color-current: var(--color-anime-completed) }
-[data-work*="anime"][data-query*="status\":3"] { --color-current: var(--color-anime-onhold) }
-[data-work*="anime"][data-query*="status\":4"] { --color-current: var(--color-anime-dropped) }
-[data-work*="anime"][data-query*="status\":6"] { --color-current: var(--color-anime-planto) }
-
 [data-work*="manga"] {
+    --color-watching: var(--color-manga-reading);
+    --color-completed: var(--color-manga-completed);
+    --color-onhold: var(--color-manga-onhold);
+    --color-dropped: var(--color-manga-dropped);
+    --color-planto: var(--color-manga-planto);
+
 	--bool-show-anime: "";
 	--bool-show-manga: none;
 	--status-top-hover: var(--item-height);
 	--status-top: var(--status-layer-one);
 }
 
-[data-work*="manga"][data-query*="status\":1"] { --color-current: var(--color-manga-reading) }
-[data-work*="manga"][data-query*="status\":2"] { --color-current: var(--color-manga-completed) }
-[data-work*="manga"][data-query*="status\":3"] { --color-current: var(--color-manga-onhold) }
-[data-work*="manga"][data-query*="status\":4"] { --color-current: var(--color-manga-dropped) }
-[data-work*="manga"][data-query*="status\":6"] { --color-current: var(--color-manga-planto) }
+[data-query*="status\":1"] { --color-current: var(--color-watching) }
+[data-query*="status\":2"] { --color-current: var(--color-completed) }
+[data-query*="status\":3"] { --color-current: var(--color-onhold) }
+[data-query*="status\":4"] { --color-current: var(--color-dropped) }
+[data-query*="status\":6"] { --color-current: var(--color-planto) }
 
 * {
 	font-family: BigNoodleToo, impact, sans-serif !important;
