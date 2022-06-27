@@ -5,10 +5,7 @@
  /*                                             */
 /***********************************************/
 
-@font-face {
-	font-family: BigNoodleToo;
-	src: url(https://cdn.jsdelivr.net/gh/Simik31/mal_css/big_noodle_titling.woff) format("woff");
-}
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 :root {
 	--color-anime-watching: #7c8695;
@@ -102,7 +99,7 @@
 [data-query*="status\":6"] { --color-current: var(--color-planto) }
 
 * {
-	font-family: BigNoodleToo, impact, sans-serif !important;
+	font-family: 'Patrick Hand' !important;
 	font-size: 20px !important;
 	font-weight: normal !important;
 	transition: all 0.4s ease-in-out;
@@ -223,7 +220,7 @@ a[href*="tag=Rx"] {
 #status-menu .status-button {
 	position: fixed;
 	left: 0;
-	width: 150px;
+	width: 175px;
 	color: var(--color-text);
 	padding: 7px 10px;
 }
