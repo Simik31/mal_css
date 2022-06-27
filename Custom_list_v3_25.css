@@ -11,12 +11,17 @@
 }
 
 :root {
-	--color-watching: #011efe;
-	--color-completed: #021631;
-	--color-onhold: #ff00a9;
-	--color-dropped: #00ff00;
-	--color-planto: #bcbcbc;
-	--color-all: #ff0000;
+	--color-anime-watching: #7c8695;
+	--color-anime-completed: #677a93;
+	--color-anime-onhold: #3a5271;
+	--color-anime-dropped: #253956;
+	--color-anime-planto: #202833;
+	
+	--color-manga-reading: #f2a207;
+	--color-manga-completed: #d09128;
+	--color-manga-onhold: #a95213;
+	--color-manga-dropped: #a33f05;
+	--color-manga-planto: #931806;
 	
 	--color-text: #fff;
 	--color-background: #3c3c3c;
@@ -64,12 +69,6 @@
 	--position-switch-list: calc(var(--position-start) + var(--position-spacing) * 7);
 }
 
-[data-query*="status\":1"] { --color-current: var(--color-watching) }
-[data-query*="status\":2"] { --color-current: var(--color-completed) }
-[data-query*="status\":3"] { --color-current: var(--color-onhold) }
-[data-query*="status\":4"] { --color-current: var(--color-dropped) }
-[data-query*="status\":6"] { --color-current: var(--color-planto) }
-
 [data-work*="anime"] {
 	--bool-show-anime: none;
 	--bool-show-manga: "";
@@ -77,12 +76,24 @@
 	--status-top: var(--status-layer-two);
 }
 
+[data-work*="anime"][data-query*="status\":1"] { --color-current: var(--color-anime-watching) }
+[data-work*="anime"][data-query*="status\":2"] { --color-current: var(--color-anime-completed) }
+[data-work*="anime"][data-query*="status\":3"] { --color-current: var(--color-anime-onhold) }
+[data-work*="anime"][data-query*="status\":4"] { --color-current: var(--color-anime-dropped) }
+[data-work*="anime"][data-query*="status\":6"] { --color-current: var(--color-anime-planto) }
+
 [data-work*="manga"] {
 	--bool-show-anime: "";
 	--bool-show-manga: none;
 	--status-top-hover: var(--item-height);
 	--status-top: var(--status-layer-one);
 }
+
+[data-work*="manga"][data-query*="status\":1"] { --color-current: var(--color-manga-reading) }
+[data-work*="manga"][data-query*="status\":2"] { --color-current: var(--color-manga-completed) }
+[data-work*="manga"][data-query*="status\":3"] { --color-current: var(--color-manga-onhold) }
+[data-work*="manga"][data-query*="status\":4"] { --color-current: var(--color-manga-dropped) }
+[data-work*="manga"][data-query*="status\":6"] { --color-current: var(--color-manga-planto) }
 
 * {
 	font-family: BigNoodleToo, impact, sans-serif !important;
